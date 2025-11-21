@@ -5,7 +5,6 @@
 
 try:
     from aiogram import types
-    from aiogram.filters import Command
     from aiogram import Dispatcher
     from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
     AIOGRAM_AVAILABLE = True
@@ -13,7 +12,6 @@ except ImportError:
     AIOGRAM_AVAILABLE = False
     types = None
     Dispatcher = None
-    Command = None
     ReplyKeyboardMarkup = None
     KeyboardButton = None
 
@@ -37,8 +35,33 @@ def get_main_menu_keyboard():
     return keyboard
 
 
+def get_welcome_keyboard():
+    """Создаёт клавиатуру приветствия для новичков"""
+    if not AIOGRAM_AVAILABLE:
+        return None
+    
+    keyboard = ReplyKeyboardMarkup(
+        keyboard=[
+            [KeyboardButton(text="Я новичок")],
+            [KeyboardButton(text="Я уже с базой")],
+        ],
+        resize_keyboard=True,
+        one_time_keyboard=True
+    )
+    return keyboard
+
+
 def get_welcome_message():
-    """Приветственное сообщение от Tietz"""
+    """Приветственное сообщение от Tietz - для /start"""
+    return (
+        "Привет 🌿 Я — Tietz, твой ИИ-наставник.\n"
+        "Готов провести тебя по модулям обучения.\n"
+        "Выбери, с чего начнём."
+    )
+
+
+def get_full_welcome_message():
+    """Полное приветственное сообщение от Tietz - для главного меню"""
     return (
         "👋 <b>Привет! Я Tietz</b> — твой наставник по продажам.\n\n"
         "🎯 <b>Моя задача</b>: помочь тебе стать мастером продаж наших уникальных продуктов:\n"
@@ -58,17 +81,40 @@ def register_telegram(dp, registry):
     """
     Регистрируем телеграм-хэндлеры для главного меню.
     Вызывается автозагрузчиком telegram/autoload.py.
+    Использует aiogram v2 синтаксис.
     """
     if not AIOGRAM_AVAILABLE:
         return
     
-    @dp.message(Command("start"))
+    @dp.message_handler(commands=["start"])
     async def _cmd_start(message: types.Message):
         """
         Команда /start - главная точка входа в бота.
-        Приветствие от Tietz + меню модулей.
+        Показывает приветствие с кнопками "Я новичок" / "Я уже с базой"
         """
         welcome_text = get_welcome_message()
+        keyboard = get_welcome_keyboard()
+        
+        await message.reply(
+            welcome_text,
+            reply_markup=keyboard
+        )
+    
+    @dp.message_handler(lambda message: message.text == "Я новичок")
+    async def _welcome_beginner(message: types.Message):
+        """Для новичков - запускаем Путь Мастера"""
+        await message.reply(
+            "🎓 Отлично! Я проведу тебя через полный цикл обучения.\n"
+            "Начинаем с модуля <b>Путь Мастера</b>.",
+            parse_mode="HTML"
+        )
+        # Запускаем мастер-путь
+        await _menu_master_path(message)
+    
+    @dp.message_handler(lambda message: message.text == "Я уже с базой")
+    async def _welcome_experienced(message: types.Message):
+        """Для опытных - показываем главное меню модулей"""
+        welcome_text = get_full_welcome_message()
         keyboard = get_main_menu_keyboard()
         
         await message.reply(
@@ -77,7 +123,28 @@ def register_telegram(dp, registry):
             parse_mode="HTML"
         )
     
-    @dp.message(lambda message: message.text == "🧭 Путь Мастера")
+    @dp.message_handler(commands=["menu", "modules"])
+    async def _cmd_menu(message: types.Message):
+        """
+        Команда /menu или /modules - показывает главное меню модулей.
+        """
+        welcome_text = get_full_welcome_message()
+        keyboard = get_main_menu_keyboard()
+        
+        await message.reply(
+            welcome_text,
+            reply_markup=keyboard,
+            parse_mode="HTML"
+        )
+    
+    @dp.message_handler(commands=["train", "master_path"])
+    async def _cmd_train(message: types.Message):
+        """
+        Команда /train - запускает модуль обучения (Путь Мастера)
+        """
+        await _menu_master_path(message)
+    
+    @dp.message_handler(lambda message: message.text == "🧭 Путь Мастера")
     async def _menu_master_path(message: types.Message):
         """Запуск модуля Путь Мастера"""
         from modules.master_path.v3.engine import MasterPath
@@ -125,7 +192,7 @@ def register_telegram(dp, registry):
         
         await message.reply(help_text, reply_markup=inline_kb, parse_mode="HTML")
     
-    @dp.message(lambda message: message.text == "🛡️⚔️ Щит и Меч")
+    @dp.message_handler(lambda message: message.text == "🛡️⚔️ Щит и Меч")
     async def _menu_objections(message: types.Message):
         """Запуск модуля Щит и Меч (возражения)"""
         help_text = (
@@ -154,7 +221,7 @@ def register_telegram(dp, registry):
         
         await message.reply(help_text, reply_markup=inline_kb, parse_mode="HTML")
     
-    @dp.message(lambda message: message.text == "🏆 Вкус Победы")
+    @dp.message_handler(lambda message: message.text == "🏆 Вкус Победы")
     async def _menu_upsell(message: types.Message):
         """Запуск модуля Вкус Победы (допродажи)"""
         help_text = (
@@ -180,7 +247,7 @@ def register_telegram(dp, registry):
         
         await message.reply(help_text, reply_markup=inline_kb, parse_mode="HTML")
     
-    @dp.message(lambda message: message.text == "🐉 Спящий Дракон")
+    @dp.message_handler(lambda message: message.text == "🐉 Спящий Дракон")
     async def _menu_sleeping_dragon(message: types.Message):
         """Запуск модуля Спящий Дракон"""
         help_text = (
@@ -217,7 +284,7 @@ def register_telegram(dp, registry):
         
         await message.reply(help_text, reply_markup=inline_kb, parse_mode="HTML")
     
-    @dp.message(lambda message: message.text == "🎭 Арена")
+    @dp.message_handler(lambda message: message.text == "🎭 Арена")
     async def _menu_arena(message: types.Message):
         """Запуск модуля Арена"""
         from modules.arena.v4.engine import ArenaEngine

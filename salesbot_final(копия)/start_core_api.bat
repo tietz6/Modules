@@ -26,8 +26,11 @@ set TG_BOT_TOKEN=8029409301:AAGpKsSxQ_rdQJm_5kR6hk_E5JgOoQLNAgI
 set TELEGRAM_PUSH_MOCK_MODE=false
 
 REM === ЗАПУСК API ===
+REM Запускаем только uvicorn через startup:app (один процесс)
 start "SALESBOT_API" python -m uvicorn startup:app --host 0.0.0.0 --port 8080 --reload
-python main.py
+
+REM Запускаем телеграм-бот отдельным процессом
+start "SALESBOT_BOT" python simple_telegram_bot.py
 
 REM === Запускаем Telegram-бота в отдельном окне ===
 start "SALESBOT_BOT" python simple_telegram_bot.py

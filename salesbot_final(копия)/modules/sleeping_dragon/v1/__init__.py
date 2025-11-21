@@ -8,7 +8,6 @@ __all__ = ['SleepingDragonEngine']
 # Telegram integration
 try:
     from aiogram import types
-    from aiogram.filters import Command
     from aiogram import Dispatcher
     from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
     AIOGRAM_AVAILABLE = True
@@ -16,7 +15,6 @@ except ImportError:
     AIOGRAM_AVAILABLE = False
     types = None
     Dispatcher = None
-    Command = None
     InlineKeyboardMarkup = None
     InlineKeyboardButton = None
 
@@ -26,6 +24,7 @@ def register_telegram(dp, registry):
     Регистрируем телеграм-хэндлеры для модуля sleeping_dragon.
     Работа с неактивными клиентами - 3 волны сообщений.
     Вызывается автозагрузчиком telegram/autoload.py.
+    Использует aiogram v2 синтаксис.
     """
     if not AIOGRAM_AVAILABLE:
         return
@@ -39,7 +38,7 @@ def register_telegram(dp, registry):
             active_sessions[user_id] = SleepingDragonEngine(user_id)
         return active_sessions[user_id]
     
-    @dp.callback_query(lambda c: c.data == "sd_reset")
+    @dp.callback_query_handler(lambda c: c.data == "sd_reset")
     async def _callback_sd_reset(callback: types.CallbackQuery):
         """Создать новую ситуацию"""
         user_id = str(callback.from_user.id)
@@ -54,7 +53,7 @@ def register_telegram(dp, registry):
         )
         await callback.answer()
     
-    @dp.callback_query(lambda c: c.data == "sd_status")
+    @dp.callback_query_handler(lambda c: c.data == "sd_status")
     async def _callback_sd_status(callback: types.CallbackQuery):
         """Показать статистику"""
         user_id = str(callback.from_user.id)
@@ -98,7 +97,7 @@ def register_telegram(dp, registry):
     # Это будет работать через роутер сообщений, если он настроен
     # Пока что создаём отдельный хендлер для команд внутри модуля
     
-    @dp.message(Command("sleeping_dragon", "спящий_дракон"))
+    @dp.message_handler(commands=["sleeping_dragon", "спящий_дракон"])
     async def _cmd_sleeping_dragon(message: types.Message):
         """
         Команда для работы с модулем Спящий Дракон.
