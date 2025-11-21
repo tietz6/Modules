@@ -13,83 +13,46 @@ def register_telegram(dp, registry):
     """
     Регистрируем телеграм-хэндлеры для модуля upsell (допродажи).
     Вызывается автозагрузчиком telegram/autoload.py.
+    
+    Теперь доступ через главное меню (кнопки), команды убраны для обычных пользователей.
     """
     if not AIOGRAM_AVAILABLE:
         return
     
-    @dp.message(Command("upsell", "допродажи"))
-    async def _cmd_upsell(message: types.Message):
-        """
-        Команда /upsell - тренировка допродаж
-        3 режима клиента, 3 пакета услуг
-        """
-        from .engine import UpsellEngine, PACKAGES
-        
-        user_id = str(message.from_user.id)
-        
-        # Set active session in router
-        try:
-            from telegram_message_router import set_active_session
-            set_active_session(user_id, 'upsell')
-        except:
-            pass
-        
-        upsell = UpsellEngine(user_id)
-        state = upsell.snapshot()
-        
-        modes_ru = {
-            "soft": "😊 Мягкий",
-            "normal": "😐 Обычный",
-            "aggressive": "😠 Жесткий"
-        }
-        
-        packages_ru = {
-            "basic": "🎵 Basic - Песня + обработка",
-            "premium": "🎬 Premium - Песня + видео открытка",
-            "gold": "⭐ Gold - Песня + премиум история + видео"
-        }
-        
-        mode_name = modes_ru.get(state['mode'], state['mode'])
-        package_name = packages_ru.get(state['package'], state['package'])
-        
-        help_text = (
-            "🏆 <b>Допродажи</b> - Вкус Победы\n\n"
-            f"👤 Клиент: {mode_name}\n"
-            f"📦 Пакет для допродажи: {package_name}\n\n"
-            "💬 Клиент уже заказал базовую песню.\n"
-            "Твоя задача - предложить апгрейд!\n\n"
-            "Я буду отвечать как клиент через DeepSeek AI.\n\n"
-            "Команды:\n"
-            "/upsell_reset - новый сценарий\n"
-            "/upsell_status - статистика"
-        )
-        
-        await message.reply(help_text, parse_mode="HTML")
-    
-    @dp.message(Command("upsell_reset"))
-    async def _cmd_upsell_reset(message: types.Message):
+    # Callback handlers для inline кнопок
+    @dp.callback_query(lambda c: c.data == "up_reset")
+    async def _callback_up_reset(callback: types.CallbackQuery):
         """Начать с новым сценарием"""
         from .engine import UpsellEngine
         
-        user_id = str(message.from_user.id)
+        user_id = str(callback.from_user.id)
         upsell = UpsellEngine(user_id)
         upsell._reset()
         
-        # Clear active session
-        try:
-            from telegram_message_router import clear_active_session
-            clear_active_session(user_id)
-        except:
-            pass
+        state = upsell.snapshot()
         
-        await message.reply("🔄 Новый сценарий допродажи сгенерирован!\n\nИспользуй /upsell чтобы начать.")
+        packages_ru = {
+            "basic": "🎵 Basic",
+            "premium": "🎬 Premium",
+            "gold": "⭐ Gold"
+        }
+        
+        package_name = packages_ru.get(state['package'], state['package'])
+        
+        await callback.message.edit_text(
+            f"🔄 <b>Новый сценарий!</b>\n\n"
+            f"📦 Пакет для допродажи: {package_name}\n\n"
+            f"Клиент уже заказал 1 песню. Предложи апгрейд!",
+            parse_mode="HTML"
+        )
+        await callback.answer()
     
-    @dp.message(Command("upsell_status"))
-    async def _cmd_upsell_status(message: types.Message):
+    @dp.callback_query(lambda c: c.data == "up_status")
+    async def _callback_up_status(callback: types.CallbackQuery):
         """Посмотреть статистику"""
         from .engine import UpsellEngine
         
-        user_id = str(message.from_user.id)
+        user_id = str(callback.from_user.id)
         upsell = UpsellEngine(user_id)
         state = upsell.snapshot()
         
@@ -117,4 +80,5 @@ def register_telegram(dp, registry):
             "Продолжай работу с допродажей!"
         )
         
-        await message.reply(status_text, parse_mode="HTML")
+        await callback.message.edit_text(status_text, parse_mode="HTML")
+        await callback.answer()
