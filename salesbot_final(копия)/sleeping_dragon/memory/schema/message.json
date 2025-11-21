@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Message",
+  "type": "object",
+  "required": [
+    "role",
+    "content",
+    "ts"
+  ],
+  "properties": {
+    "role": {
+      "type": "string",
+      "enum": [
+        "manager",
+        "client",
+        "coach",
+        "system"
+      ]
+    },
+    "content": {
+      "type": "string"
+    },
+    "stage": {
+      "type": "string"
+    },
+    "ts": {
+      "type": "number"
+    },
+    "metrics": {
+      "type": "object",
+      "properties": {
+        "speed_wpm": {
+          "type": "number"
+        },
+        "pauses": {
+          "type": "number"
+        },
+        "energy": {
+          "type": "number"
+        },
+        "clarity": {
+          "type": "number"
+        },
+        "pitch_var": {
+          "type": "number"
+        }
+      }
+    }
+  }
+}

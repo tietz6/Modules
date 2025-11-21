@@ -1,0 +1,186 @@
+{
+  "stages": [
+    "greeting",
+    "qualification",
+    "support",
+    "offer",
+    "demo",
+    "final",
+    "upsell",
+    "payment",
+    "objection_soft",
+    "followup"
+  ],
+  "langs": [
+    "ru",
+    "ky",
+    "en"
+  ],
+  "lengths": [
+    "short",
+    "medium",
+    "long"
+  ],
+  "items": [
+    {
+      "stage": "greeting",
+      "path": "official_responses/greeting",
+      "files": [
+        "meta.json",
+        "ru/short.md",
+        "ru/medium.md",
+        "ru/long.md",
+        "ky/short.md",
+        "ky/medium.md",
+        "ky/long.md",
+        "en/short.md",
+        "en/medium.md",
+        "en/long.md"
+      ]
+    },
+    {
+      "stage": "qualification",
+      "path": "official_responses/qualification",
+      "files": [
+        "meta.json",
+        "ru/short.md",
+        "ru/medium.md",
+        "ru/long.md",
+        "ky/short.md",
+        "ky/medium.md",
+        "ky/long.md",
+        "en/short.md",
+        "en/medium.md",
+        "en/long.md"
+      ]
+    },
+    {
+      "stage": "support",
+      "path": "official_responses/support",
+      "files": [
+        "meta.json",
+        "ru/short.md",
+        "ru/medium.md",
+        "ru/long.md",
+        "ky/short.md",
+        "ky/medium.md",
+        "ky/long.md",
+        "en/short.md",
+        "en/medium.md",
+        "en/long.md"
+      ]
+    },
+    {
+      "stage": "offer",
+      "path": "official_responses/offer",
+      "files": [
+        "meta.json",
+        "ru/short.md",
+        "ru/medium.md",
+        "ru/long.md",
+        "ky/short.md",
+        "ky/medium.md",
+        "ky/long.md",
+        "en/short.md",
+        "en/medium.md",
+        "en/long.md"
+      ]
+    },
+    {
+      "stage": "demo",
+      "path": "official_responses/demo",
+      "files": [
+        "meta.json",
+        "ru/short.md",
+        "ru/medium.md",
+        "ru/long.md",
+        "ky/short.md",
+        "ky/medium.md",
+        "ky/long.md",
+        "en/short.md",
+        "en/medium.md",
+        "en/long.md"
+      ]
+    },
+    {
+      "stage": "final",
+      "path": "official_responses/final",
+      "files": [
+        "meta.json",
+        "ru/short.md",
+        "ru/medium.md",
+        "ru/long.md",
+        "ky/short.md",
+        "ky/medium.md",
+        "ky/long.md",
+        "en/short.md",
+        "en/medium.md",
+        "en/long.md"
+      ]
+    },
+    {
+      "stage": "upsell",
+      "path": "official_responses/upsell",
+      "files": [
+        "meta.json",
+        "ru/short.md",
+        "ru/medium.md",
+        "ru/long.md",
+        "ky/short.md",
+        "ky/medium.md",
+        "ky/long.md",
+        "en/short.md",
+        "en/medium.md",
+        "en/long.md"
+      ]
+    },
+    {
+      "stage": "payment",
+      "path": "official_responses/payment",
+      "files": [
+        "meta.json",
+        "ru/short.md",
+        "ru/medium.md",
+        "ru/long.md",
+        "ky/short.md",
+        "ky/medium.md",
+        "ky/long.md",
+        "en/short.md",
+        "en/medium.md",
+        "en/long.md"
+      ]
+    },
+    {
+      "stage": "objection_soft",
+      "path": "official_responses/objection_soft",
+      "files": [
+        "meta.json",
+        "ru/short.md",
+        "ru/medium.md",
+        "ru/long.md",
+        "ky/short.md",
+        "ky/medium.md",
+        "ky/long.md",
+        "en/short.md",
+        "en/medium.md",
+        "en/long.md"
+      ]
+    },
+    {
+      "stage": "followup",
+      "path": "official_responses/followup",
+      "files": [
+        "meta.json",
+        "ru/short.md",
+        "ru/medium.md",
+        "ru/long.md",
+        "ky/short.md",
+        "ky/medium.md",
+        "ky/long.md",
+        "en/short.md",
+        "en/medium.md",
+        "en/long.md"
+      ]
+    }
+  ]
+}

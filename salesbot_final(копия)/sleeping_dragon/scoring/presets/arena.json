@@ -1,0 +1,24 @@
+{
+  "name": "arena",
+  "stages_weights": {
+    "greeting": 0.08,
+    "qualification": 0.22,
+    "support": 0.15,
+    "offer": 0.2,
+    "demo": 0.2,
+    "final": 0.15
+  },
+  "rule_weight": 0.6,
+  "llm_weight": 0.4,
+  "emotion_penalty": {
+    "annoyed": 1,
+    "angry": 2
+  },
+  "difficulty_bonus": {
+    "easy": 1,
+    "medium": 0,
+    "hard": -1,
+    "nightmare": -2
+  },
+  "notes": "Адаптированный под психотипы и сложности"
+}

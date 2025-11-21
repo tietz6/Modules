@@ -1,0 +1,644 @@
+{
+  "rules": [
+    {
+      "id": "rule_001",
+      "if_contains": "дорого",
+      "penalty": 1,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_002",
+      "if_contains": "!!??",
+      "penalty": 1,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_003",
+      "if_contains": "дорого",
+      "penalty": 3,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_004",
+      "if_contains": "не нужно",
+      "penalty": 2,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_005",
+      "if_contains": "не нужно",
+      "penalty": 2,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_006",
+      "if_contains": "!!??",
+      "penalty": 3,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_007",
+      "if_contains": "не нужно",
+      "penalty": 3,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_008",
+      "if_contains": "нет времени",
+      "penalty": 3,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_009",
+      "if_contains": "!!??",
+      "penalty": 2,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_010",
+      "if_contains": "нет времени",
+      "penalty": 1,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_011",
+      "if_contains": "нет времени",
+      "penalty": 3,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_012",
+      "if_contains": "некрасиво",
+      "penalty": 3,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_013",
+      "if_contains": "дорого",
+      "penalty": 2,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_014",
+      "if_contains": "!!??",
+      "penalty": 1,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_015",
+      "if_contains": "позже",
+      "penalty": 1,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_016",
+      "if_contains": "не нужно",
+      "penalty": 2,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_017",
+      "if_contains": "позже",
+      "penalty": 1,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_018",
+      "if_contains": "дорого",
+      "penalty": 1,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_019",
+      "if_contains": "некрасиво",
+      "penalty": 2,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_020",
+      "if_contains": "позже",
+      "penalty": 2,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_021",
+      "if_contains": "не нужно",
+      "penalty": 3,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_022",
+      "if_contains": "!!??",
+      "penalty": 1,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_023",
+      "if_contains": "!!??",
+      "penalty": 3,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_024",
+      "if_contains": "дорого",
+      "penalty": 3,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_025",
+      "if_contains": "некрасиво",
+      "penalty": 1,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_026",
+      "if_contains": "не уверен",
+      "penalty": 1,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_027",
+      "if_contains": "!!??",
+      "penalty": 3,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_028",
+      "if_contains": "нет времени",
+      "penalty": 2,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_029",
+      "if_contains": "нет времени",
+      "penalty": 3,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_030",
+      "if_contains": "не нужно",
+      "penalty": 1,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_031",
+      "if_contains": "не уверен",
+      "penalty": 2,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_032",
+      "if_contains": "некрасиво",
+      "penalty": 1,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_033",
+      "if_contains": "некрасиво",
+      "penalty": 1,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_034",
+      "if_contains": "дорого",
+      "penalty": 1,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_035",
+      "if_contains": "не уверен",
+      "penalty": 3,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_036",
+      "if_contains": "!!??",
+      "penalty": 3,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_037",
+      "if_contains": "дорого",
+      "penalty": 2,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_038",
+      "if_contains": "!!??",
+      "penalty": 3,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_039",
+      "if_contains": "некрасиво",
+      "penalty": 2,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_040",
+      "if_contains": "не уверен",
+      "penalty": 2,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_041",
+      "if_contains": "позже",
+      "penalty": 1,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_042",
+      "if_contains": "позже",
+      "penalty": 3,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_043",
+      "if_contains": "некрасиво",
+      "penalty": 2,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_044",
+      "if_contains": "дорого",
+      "penalty": 1,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_045",
+      "if_contains": "некрасиво",
+      "penalty": 1,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_046",
+      "if_contains": "некрасиво",
+      "penalty": 1,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_047",
+      "if_contains": "дорого",
+      "penalty": 2,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_048",
+      "if_contains": "не нужно",
+      "penalty": 1,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_049",
+      "if_contains": "дорого",
+      "penalty": 2,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_050",
+      "if_contains": "дорого",
+      "penalty": 2,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_051",
+      "if_contains": "позже",
+      "penalty": 1,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_052",
+      "if_contains": "дорого",
+      "penalty": 2,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_053",
+      "if_contains": "!!??",
+      "penalty": 1,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_054",
+      "if_contains": "не нужно",
+      "penalty": 2,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_055",
+      "if_contains": "некрасиво",
+      "penalty": 3,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_056",
+      "if_contains": "не уверен",
+      "penalty": 2,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_057",
+      "if_contains": "некрасиво",
+      "penalty": 2,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_058",
+      "if_contains": "не нужно",
+      "penalty": 1,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_059",
+      "if_contains": "!!??",
+      "penalty": 1,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_060",
+      "if_contains": "не уверен",
+      "penalty": 2,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_061",
+      "if_contains": "позже",
+      "penalty": 2,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_062",
+      "if_contains": "нет времени",
+      "penalty": 2,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_063",
+      "if_contains": "позже",
+      "penalty": 3,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_064",
+      "if_contains": "не нужно",
+      "penalty": 1,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_065",
+      "if_contains": "некрасиво",
+      "penalty": 3,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_066",
+      "if_contains": "нет времени",
+      "penalty": 2,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_067",
+      "if_contains": "дорого",
+      "penalty": 3,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_068",
+      "if_contains": "не уверен",
+      "penalty": 3,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_069",
+      "if_contains": "не нужно",
+      "penalty": 3,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_070",
+      "if_contains": "!!??",
+      "penalty": 3,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_071",
+      "if_contains": "некрасиво",
+      "penalty": 3,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_072",
+      "if_contains": "!!??",
+      "penalty": 1,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_073",
+      "if_contains": "некрасиво",
+      "penalty": 1,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_074",
+      "if_contains": "позже",
+      "penalty": 3,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_075",
+      "if_contains": "позже",
+      "penalty": 2,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_076",
+      "if_contains": "не нужно",
+      "penalty": 1,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_077",
+      "if_contains": "некрасиво",
+      "penalty": 3,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_078",
+      "if_contains": "позже",
+      "penalty": 1,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_079",
+      "if_contains": "дорого",
+      "penalty": 3,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    },
+    {
+      "id": "rule_080",
+      "if_contains": "позже",
+      "penalty": 1,
+      "tip_ru": "Смягчи тон и вернись к ценности + уточняющий вопрос.",
+      "tip_ky": "Тону жумшарт жана баалуулукка кайтар + тактоо суроосу.",
+      "tip_en": "Soften tone, return to value + clarifying question."
+    }
+  ]
+}

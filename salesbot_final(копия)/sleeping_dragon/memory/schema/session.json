@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SleepingDragonSession",
+  "type": "object",
+  "required": [
+    "session_id",
+    "manager_id",
+    "created_at",
+    "history",
+    "scores"
+  ],
+  "properties": {
+    "session_id": {
+      "type": "string"
+    },
+    "manager_id": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "stage": {
+      "type": "string",
+      "enum": [
+        "greeting",
+        "qualification",
+        "support",
+        "offer",
+        "demo",
+        "final",
+        "upsell",
+        "payment",
+        "followup"
+      ]
+    },
+    "history": {
+      "type": "array",
+      "items": {
+        "$ref": "message.json"
+      }
+    },
+    "scores": {
+      "type": "object",
+      "properties": {
+        "combined": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "rule": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "llm": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10
+        }
+      }
+    },
+    "issues": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "tips": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "meta": {
+      "type": "object"
+    }
+  }
+}

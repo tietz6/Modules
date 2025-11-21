@@ -1,0 +1,1204 @@
+{
+  "items": [
+    {
+      "id": "payment_ky_001",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 1: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_002",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 2: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_003",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 3: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_004",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 4: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_005",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 5: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_006",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 6: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_007",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 7: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_008",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 8: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_009",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 9: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_010",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 10: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_011",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 11: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_012",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 12: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_013",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 13: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_014",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 14: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_015",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 15: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_016",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 16: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_017",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 17: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_018",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 18: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_019",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 19: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_020",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 20: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_021",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 21: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_022",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 22: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_023",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 23: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_024",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 24: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_025",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 25: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_026",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 26: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_027",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 27: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_028",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 28: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_029",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 29: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_030",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 30: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_031",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 31: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_032",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 32: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_033",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 33: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_034",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 34: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_035",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 35: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_036",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 36: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_037",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 37: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_038",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 38: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_039",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 39: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_040",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 40: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_041",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 41: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_042",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 42: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_043",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 43: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_044",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 44: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_045",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 45: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_046",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 46: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_047",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 47: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_048",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 48: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_049",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 49: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_050",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 50: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_051",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 51: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_052",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 52: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_053",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 53: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_054",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 54: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_055",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 55: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_056",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 56: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_057",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 57: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_058",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 58: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_059",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 59: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_060",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 60: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_061",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 61: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_062",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 62: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_063",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 63: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_064",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 64: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_065",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 65: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_066",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 66: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_067",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 67: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_068",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 68: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_069",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 69: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_070",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 70: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_071",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 71: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_072",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 72: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_073",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 73: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_074",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 74: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_075",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 75: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_076",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 76: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_077",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 77: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_078",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 78: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_079",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 79: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_080",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 80: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_081",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 81: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_082",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 82: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_083",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 83: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_084",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 84: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_085",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 85: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_086",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 86: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_087",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 87: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_088",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 88: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_089",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 89: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_090",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 90: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_091",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 91: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_092",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 92: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_093",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 93: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_094",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 94: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_095",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 95: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_096",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 96: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_097",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 97: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_098",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 98: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_099",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 99: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "payment_ky_100",
+      "stage": "payment",
+      "lang": "ky",
+      "script": "Скрипт 100: баалуулук → тактоочу суроо → жумшак аракет. (payment)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    }
+  ]
+}

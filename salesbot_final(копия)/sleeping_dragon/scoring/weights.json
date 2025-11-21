@@ -1,0 +1,17 @@
+{
+  "penalties": {
+    "too_short": 2,
+    "no_question": 2,
+    "aggressive": 3,
+    "many_punct": 1,
+    "no_value": 1,
+    "no_cta": 1
+  },
+  "bonuses": {
+    "clear_value": 1,
+    "empathy": 1,
+    "good_question": 2,
+    "soft_payment": 1,
+    "recap": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "invoice_request": {
+    "deal_id": "D-1001",
+    "amount": 3500,
+    "currency": "KGS"
+  },
+  "webhook_payload": {
+    "deal_id": "D-1001",
+    "payment_id": "P-7788",
+    "status": "paid"
+  }
+}

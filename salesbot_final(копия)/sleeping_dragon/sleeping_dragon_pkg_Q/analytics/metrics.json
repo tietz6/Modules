@@ -1,0 +1,57 @@
+{
+  "kpi": [
+    {
+      "name": "warmth_avg",
+      "desc": "Средняя теплота ответов (0..1)"
+    },
+    {
+      "name": "empathy_hits",
+      "desc": "Срабатывания эмпатических маркеров"
+    },
+    {
+      "name": "question_rate",
+      "desc": "Доля ответов с уточняющим вопросом"
+    },
+    {
+      "name": "soft_cta_rate",
+      "desc": "Доля мягких CTA"
+    },
+    {
+      "name": "upsell_opens",
+      "desc": "Инициированные мягкие допродажи"
+    },
+    {
+      "name": "payment_transitions",
+      "desc": "Корректные переходы к оплате"
+    }
+  ],
+  "reports": [
+    {
+      "name": "daily_progress",
+      "fields": [
+        "date",
+        "sessions",
+        "avg_score",
+        "errors_top3"
+      ]
+    },
+    {
+      "name": "module_heatmap",
+      "fields": [
+        "module",
+        "count",
+        "avg_score"
+      ]
+    },
+    {
+      "name": "manager_kpi",
+      "fields": [
+        "manager_id",
+        "warmth_avg",
+        "score_avg",
+        "upsell_opens",
+        "payments"
+      ]
+    }
+  ]
+}

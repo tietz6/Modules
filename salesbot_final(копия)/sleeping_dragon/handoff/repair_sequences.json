@@ -1,0 +1,24 @@
+{
+  "sequences": [
+    {
+      "id": "repair_1",
+      "steps": [
+        "acknowledge",
+        "clarify",
+        "value",
+        "question",
+        "cta"
+      ]
+    },
+    {
+      "id": "repair_2",
+      "steps": [
+        "soft_apology",
+        "reframe",
+        "offer_option",
+        "check_feelings",
+        "cta"
+      ]
+    }
+  ]
+}

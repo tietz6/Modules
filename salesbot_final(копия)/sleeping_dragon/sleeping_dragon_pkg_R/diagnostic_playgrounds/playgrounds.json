@@ -1,0 +1,604 @@
+{
+  "items": [
+    {
+      "id": "pg_001",
+      "title": "Diagnostic Playground #1",
+      "goal": "closing",
+      "seed_prompt": "Клиент сомневается в цене. Ответь тепло, добавь ценность и уточняющий вопрос.",
+      "checks": [
+        "no_aggression",
+        "has_value_phrase",
+        "has_question",
+        "cta_soft"
+      ]
+    },
+    {
+      "id": "pg_002",
+      "title": "Diagnostic Playground #2",
+      "goal": "upsell",
+      "seed_prompt": "Клиент сомневается в цене. Ответь тепло, добавь ценность и уточняющий вопрос.",
+      "checks": [
+        "no_aggression",
+        "has_value_phrase",
+        "has_question",
+        "cta_soft"
+      ]
+    },
+    {
+      "id": "pg_003",
+      "title": "Diagnostic Playground #3",
+      "goal": "empathy",
+      "seed_prompt": "Клиент сомневается в цене. Ответь тепло, добавь ценность и уточняющий вопрос.",
+      "checks": [
+        "no_aggression",
+        "has_value_phrase",
+        "has_question",
+        "cta_soft"
+      ]
+    },
+    {
+      "id": "pg_004",
+      "title": "Diagnostic Playground #4",
+      "goal": "questioning",
+      "seed_prompt": "Клиент сомневается в цене. Ответь тепло, добавь ценность и уточняющий вопрос.",
+      "checks": [
+        "no_aggression",
+        "has_value_phrase",
+        "has_question",
+        "cta_soft"
+      ]
+    },
+    {
+      "id": "pg_005",
+      "title": "Diagnostic Playground #5",
+      "goal": "closing",
+      "seed_prompt": "Клиент сомневается в цене. Ответь тепло, добавь ценность и уточняющий вопрос.",
+      "checks": [
+        "no_aggression",
+        "has_value_phrase",
+        "has_question",
+        "cta_soft"
+      ]
+    },
+    {
+      "id": "pg_006",
+      "title": "Diagnostic Playground #6",
+      "goal": "closing",
+      "seed_prompt": "Клиент сомневается в цене. Ответь тепло, добавь ценность и уточняющий вопрос.",
+      "checks": [
+        "no_aggression",
+        "has_value_phrase",
+        "has_question",
+        "cta_soft"
+      ]
+    },
+    {
+      "id": "pg_007",
+      "title": "Diagnostic Playground #7",
+      "goal": "closing",
+      "seed_prompt": "Клиент сомневается в цене. Ответь тепло, добавь ценность и уточняющий вопрос.",
+      "checks": [
+        "no_aggression",
+        "has_value_phrase",
+        "has_question",
+        "cta_soft"
+      ]
+    },
+    {
+      "id": "pg_008",
+      "title": "Diagnostic Playground #8",
+      "goal": "questioning",
+      "seed_prompt": "Клиент сомневается в цене. Ответь тепло, добавь ценность и уточняющий вопрос.",
+      "checks": [
+        "no_aggression",
+        "has_value_phrase",
+        "has_question",
+        "cta_soft"
+      ]
+    },
+    {
+      "id": "pg_009",
+      "title": "Diagnostic Playground #9",
+      "goal": "empathy",
+      "seed_prompt": "Клиент сомневается в цене. Ответь тепло, добавь ценность и уточняющий вопрос.",
+      "checks": [
+        "no_aggression",
+        "has_value_phrase",
+        "has_question",
+        "cta_soft"
+      ]
+    },
+    {
+      "id": "pg_010",
+      "title": "Diagnostic Playground #10",
+      "goal": "empathy",
+      "seed_prompt": "Клиент сомневается в цене. Ответь тепло, добавь ценность и уточняющий вопрос.",
+      "checks": [
+        "no_aggression",
+        "has_value_phrase",
+        "has_question",
+        "cta_soft"
+      ]
+    },
+    {
+      "id": "pg_011",
+      "title": "Diagnostic Playground #11",
+      "goal": "upsell",
+      "seed_prompt": "Клиент сомневается в цене. Ответь тепло, добавь ценность и уточняющий вопрос.",
+      "checks": [
+        "no_aggression",
+        "has_value_phrase",
+        "has_question",
+        "cta_soft"
+      ]
+    },
+    {
+      "id": "pg_012",
+      "title": "Diagnostic Playground #12",
+      "goal": "upsell",
+      "seed_prompt": "Клиент сомневается в цене. Ответь тепло, добавь ценность и уточняющий вопрос.",
+      "checks": [
+        "no_aggression",
+        "has_value_phrase",
+        "has_question",
+        "cta_soft"
+      ]
+    },
+    {
+      "id": "pg_013",
+      "title": "Diagnostic Playground #13",
+      "goal": "empathy",
+      "seed_prompt": "Клиент сомневается в цене. Ответь тепло, добавь ценность и уточняющий вопрос.",
+      "checks": [
+        "no_aggression",
+        "has_value_phrase",
+        "has_question",
+        "cta_soft"
+      ]
+    },
+    {
+      "id": "pg_014",
+      "title": "Diagnostic Playground #14",
+      "goal": "upsell",
+      "seed_prompt": "Клиент сомневается в цене. Ответь тепло, добавь ценность и уточняющий вопрос.",
+      "checks": [
+        "no_aggression",
+        "has_value_phrase",
+        "has_question",
+        "cta_soft"
+      ]
+    },
+    {
+      "id": "pg_015",
+      "title": "Diagnostic Playground #15",
+      "goal": "questioning",
+      "seed_prompt": "Клиент сомневается в цене. Ответь тепло, добавь ценность и уточняющий вопрос.",
+      "checks": [
+        "no_aggression",
+        "has_value_phrase",
+        "has_question",
+        "cta_soft"
+      ]
+    },
+    {
+      "id": "pg_016",
+      "title": "Diagnostic Playground #16",
+      "goal": "questioning",
+      "seed_prompt": "Клиент сомневается в цене. Ответь тепло, добавь ценность и уточняющий вопрос.",
+      "checks": [
+        "no_aggression",
+        "has_value_phrase",
+        "has_question",
+        "cta_soft"
+      ]
+    },
+    {
+      "id": "pg_017",
+      "title": "Diagnostic Playground #17",
+      "goal": "questioning",
+      "seed_prompt": "Клиент сомневается в цене. Ответь тепло, добавь ценность и уточняющий вопрос.",
+      "checks": [
+        "no_aggression",
+        "has_value_phrase",
+        "has_question",
+        "cta_soft"
+      ]
+    },
+    {
+      "id": "pg_018",
+      "title": "Diagnostic Playground #18",
+      "goal": "closing",
+      "seed_prompt": "Клиент сомневается в цене. Ответь тепло, добавь ценность и уточняющий вопрос.",
+      "checks": [
+        "no_aggression",
+        "has_value_phrase",
+        "has_question",
+        "cta_soft"
+      ]
+    },
+    {
+      "id": "pg_019",
+      "title": "Diagnostic Playground #19",
+      "goal": "upsell",
+      "seed_prompt": "Клиент сомневается в цене. Ответь тепло, добавь ценность и уточняющий вопрос.",
+      "checks": [
+        "no_aggression",
+        "has_value_phrase",
+        "has_question",
+        "cta_soft"
+      ]
+    },
+    {
+      "id": "pg_020",
+      "title": "Diagnostic Playground #20",
+      "goal": "upsell",
+      "seed_prompt": "Клиент сомневается в цене. Ответь тепло, добавь ценность и уточняющий вопрос.",
+      "checks": [
+        "no_aggression",
+        "has_value_phrase",
+        "has_question",
+        "cta_soft"
+      ]
+    },
+    {
+      "id": "pg_021",
+      "title": "Diagnostic Playground #21",
+      "goal": "closing",
+      "seed_prompt": "Клиент сомневается в цене. Ответь тепло, добавь ценность и уточняющий вопрос.",
+      "checks": [
+        "no_aggression",
+        "has_value_phrase",
+        "has_question",
+        "cta_soft"
+      ]
+    },
+    {
+      "id": "pg_022",
+      "title": "Diagnostic Playground #22",
+      "goal": "value",
+      "seed_prompt": "Клиент сомневается в цене. Ответь тепло, добавь ценность и уточняющий вопрос.",
+      "checks": [
+        "no_aggression",
+        "has_value_phrase",
+        "has_question",
+        "cta_soft"
+      ]
+    },
+    {
+      "id": "pg_023",
+      "title": "Diagnostic Playground #23",
+      "goal": "questioning",
+      "seed_prompt": "Клиент сомневается в цене. Ответь тепло, добавь ценность и уточняющий вопрос.",
+      "checks": [
+        "no_aggression",
+        "has_value_phrase",
+        "has_question",
+        "cta_soft"
+      ]
+    },
+    {
+      "id": "pg_024",
+      "title": "Diagnostic Playground #24",
+      "goal": "closing",
+      "seed_prompt": "Клиент сомневается в цене. Ответь тепло, добавь ценность и уточняющий вопрос.",
+      "checks": [
+        "no_aggression",
+        "has_value_phrase",
+        "has_question",
+        "cta_soft"
+      ]
+    },
+    {
+      "id": "pg_025",
+      "title": "Diagnostic Playground #25",
+      "goal": "value",
+      "seed_prompt": "Клиент сомневается в цене. Ответь тепло, добавь ценность и уточняющий вопрос.",
+      "checks": [
+        "no_aggression",
+        "has_value_phrase",
+        "has_question",
+        "cta_soft"
+      ]
+    },
+    {
+      "id": "pg_026",
+      "title": "Diagnostic Playground #26",
+      "goal": "empathy",
+      "seed_prompt": "Клиент сомневается в цене. Ответь тепло, добавь ценность и уточняющий вопрос.",
+      "checks": [
+        "no_aggression",
+        "has_value_phrase",
+        "has_question",
+        "cta_soft"
+      ]
+    },
+    {
+      "id": "pg_027",
+      "title": "Diagnostic Playground #27",
+      "goal": "empathy",
+      "seed_prompt": "Клиент сомневается в цене. Ответь тепло, добавь ценность и уточняющий вопрос.",
+      "checks": [
+        "no_aggression",
+        "has_value_phrase",
+        "has_question",
+        "cta_soft"
+      ]
+    },
+    {
+      "id": "pg_028",
+      "title": "Diagnostic Playground #28",
+      "goal": "value",
+      "seed_prompt": "Клиент сомневается в цене. Ответь тепло, добавь ценность и уточняющий вопрос.",
+      "checks": [
+        "no_aggression",
+        "has_value_phrase",
+        "has_question",
+        "cta_soft"
+      ]
+    },
+    {
+      "id": "pg_029",
+      "title": "Diagnostic Playground #29",
+      "goal": "value",
+      "seed_prompt": "Клиент сомневается в цене. Ответь тепло, добавь ценность и уточняющий вопрос.",
+      "checks": [
+        "no_aggression",
+        "has_value_phrase",
+        "has_question",
+        "cta_soft"
+      ]
+    },
+    {
+      "id": "pg_030",
+      "title": "Diagnostic Playground #30",
+      "goal": "closing",
+      "seed_prompt": "Клиент сомневается в цене. Ответь тепло, добавь ценность и уточняющий вопрос.",
+      "checks": [
+        "no_aggression",
+        "has_value_phrase",
+        "has_question",
+        "cta_soft"
+      ]
+    },
+    {
+      "id": "pg_031",
+      "title": "Diagnostic Playground #31",
+      "goal": "closing",
+      "seed_prompt": "Клиент сомневается в цене. Ответь тепло, добавь ценность и уточняющий вопрос.",
+      "checks": [
+        "no_aggression",
+        "has_value_phrase",
+        "has_question",
+        "cta_soft"
+      ]
+    },
+    {
+      "id": "pg_032",
+      "title": "Diagnostic Playground #32",
+      "goal": "questioning",
+      "seed_prompt": "Клиент сомневается в цене. Ответь тепло, добавь ценность и уточняющий вопрос.",
+      "checks": [
+        "no_aggression",
+        "has_value_phrase",
+        "has_question",
+        "cta_soft"
+      ]
+    },
+    {
+      "id": "pg_033",
+      "title": "Diagnostic Playground #33",
+      "goal": "questioning",
+      "seed_prompt": "Клиент сомневается в цене. Ответь тепло, добавь ценность и уточняющий вопрос.",
+      "checks": [
+        "no_aggression",
+        "has_value_phrase",
+        "has_question",
+        "cta_soft"
+      ]
+    },
+    {
+      "id": "pg_034",
+      "title": "Diagnostic Playground #34",
+      "goal": "upsell",
+      "seed_prompt": "Клиент сомневается в цене. Ответь тепло, добавь ценность и уточняющий вопрос.",
+      "checks": [
+        "no_aggression",
+        "has_value_phrase",
+        "has_question",
+        "cta_soft"
+      ]
+    },
+    {
+      "id": "pg_035",
+      "title": "Diagnostic Playground #35",
+      "goal": "value",
+      "seed_prompt": "Клиент сомневается в цене. Ответь тепло, добавь ценность и уточняющий вопрос.",
+      "checks": [
+        "no_aggression",
+        "has_value_phrase",
+        "has_question",
+        "cta_soft"
+      ]
+    },
+    {
+      "id": "pg_036",
+      "title": "Diagnostic Playground #36",
+      "goal": "value",
+      "seed_prompt": "Клиент сомневается в цене. Ответь тепло, добавь ценность и уточняющий вопрос.",
+      "checks": [
+        "no_aggression",
+        "has_value_phrase",
+        "has_question",
+        "cta_soft"
+      ]
+    },
+    {
+      "id": "pg_037",
+      "title": "Diagnostic Playground #37",
+      "goal": "questioning",
+      "seed_prompt": "Клиент сомневается в цене. Ответь тепло, добавь ценность и уточняющий вопрос.",
+      "checks": [
+        "no_aggression",
+        "has_value_phrase",
+        "has_question",
+        "cta_soft"
+      ]
+    },
+    {
+      "id": "pg_038",
+      "title": "Diagnostic Playground #38",
+      "goal": "questioning",
+      "seed_prompt": "Клиент сомневается в цене. Ответь тепло, добавь ценность и уточняющий вопрос.",
+      "checks": [
+        "no_aggression",
+        "has_value_phrase",
+        "has_question",
+        "cta_soft"
+      ]
+    },
+    {
+      "id": "pg_039",
+      "title": "Diagnostic Playground #39",
+      "goal": "questioning",
+      "seed_prompt": "Клиент сомневается в цене. Ответь тепло, добавь ценность и уточняющий вопрос.",
+      "checks": [
+        "no_aggression",
+        "has_value_phrase",
+        "has_question",
+        "cta_soft"
+      ]
+    },
+    {
+      "id": "pg_040",
+      "title": "Diagnostic Playground #40",
+      "goal": "questioning",
+      "seed_prompt": "Клиент сомневается в цене. Ответь тепло, добавь ценность и уточняющий вопрос.",
+      "checks": [
+        "no_aggression",
+        "has_value_phrase",
+        "has_question",
+        "cta_soft"
+      ]
+    },
+    {
+      "id": "pg_041",
+      "title": "Diagnostic Playground #41",
+      "goal": "upsell",
+      "seed_prompt": "Клиент сомневается в цене. Ответь тепло, добавь ценность и уточняющий вопрос.",
+      "checks": [
+        "no_aggression",
+        "has_value_phrase",
+        "has_question",
+        "cta_soft"
+      ]
+    },
+    {
+      "id": "pg_042",
+      "title": "Diagnostic Playground #42",
+      "goal": "questioning",
+      "seed_prompt": "Клиент сомневается в цене. Ответь тепло, добавь ценность и уточняющий вопрос.",
+      "checks": [
+        "no_aggression",
+        "has_value_phrase",
+        "has_question",
+        "cta_soft"
+      ]
+    },
+    {
+      "id": "pg_043",
+      "title": "Diagnostic Playground #43",
+      "goal": "value",
+      "seed_prompt": "Клиент сомневается в цене. Ответь тепло, добавь ценность и уточняющий вопрос.",
+      "checks": [
+        "no_aggression",
+        "has_value_phrase",
+        "has_question",
+        "cta_soft"
+      ]
+    },
+    {
+      "id": "pg_044",
+      "title": "Diagnostic Playground #44",
+      "goal": "upsell",
+      "seed_prompt": "Клиент сомневается в цене. Ответь тепло, добавь ценность и уточняющий вопрос.",
+      "checks": [
+        "no_aggression",
+        "has_value_phrase",
+        "has_question",
+        "cta_soft"
+      ]
+    },
+    {
+      "id": "pg_045",
+      "title": "Diagnostic Playground #45",
+      "goal": "empathy",
+      "seed_prompt": "Клиент сомневается в цене. Ответь тепло, добавь ценность и уточняющий вопрос.",
+      "checks": [
+        "no_aggression",
+        "has_value_phrase",
+        "has_question",
+        "cta_soft"
+      ]
+    },
+    {
+      "id": "pg_046",
+      "title": "Diagnostic Playground #46",
+      "goal": "closing",
+      "seed_prompt": "Клиент сомневается в цене. Ответь тепло, добавь ценность и уточняющий вопрос.",
+      "checks": [
+        "no_aggression",
+        "has_value_phrase",
+        "has_question",
+        "cta_soft"
+      ]
+    },
+    {
+      "id": "pg_047",
+      "title": "Diagnostic Playground #47",
+      "goal": "upsell",
+      "seed_prompt": "Клиент сомневается в цене. Ответь тепло, добавь ценность и уточняющий вопрос.",
+      "checks": [
+        "no_aggression",
+        "has_value_phrase",
+        "has_question",
+        "cta_soft"
+      ]
+    },
+    {
+      "id": "pg_048",
+      "title": "Diagnostic Playground #48",
+      "goal": "questioning",
+      "seed_prompt": "Клиент сомневается в цене. Ответь тепло, добавь ценность и уточняющий вопрос.",
+      "checks": [
+        "no_aggression",
+        "has_value_phrase",
+        "has_question",
+        "cta_soft"
+      ]
+    },
+    {
+      "id": "pg_049",
+      "title": "Diagnostic Playground #49",
+      "goal": "empathy",
+      "seed_prompt": "Клиент сомневается в цене. Ответь тепло, добавь ценность и уточняющий вопрос.",
+      "checks": [
+        "no_aggression",
+        "has_value_phrase",
+        "has_question",
+        "cta_soft"
+      ]
+    },
+    {
+      "id": "pg_050",
+      "title": "Diagnostic Playground #50",
+      "goal": "empathy",
+      "seed_prompt": "Клиент сомневается в цене. Ответь тепло, добавь ценность и уточняющий вопрос.",
+      "checks": [
+        "no_aggression",
+        "has_value_phrase",
+        "has_question",
+        "cta_soft"
+      ]
+    }
+  ]
+}

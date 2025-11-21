@@ -1,0 +1,7 @@
+{
+  "action": "ADD_ONLY",
+  "post_hooks": [
+    "rebuild_routes",
+    "touch_startup"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "penalties": {
+    "too_short": 2,
+    "no_question": 2,
+    "aggressive": 3,
+    "many_punct": 1,
+    "offtopic": 2,
+    "no_value_words": 1,
+    "no_cta": 1
+  },
+  "combine": {
+    "rule_weight": 0.6,
+    "llm_weight": 0.4
+  }
+}

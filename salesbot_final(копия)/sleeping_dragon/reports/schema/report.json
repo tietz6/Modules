@@ -1,0 +1,105 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SleepingDragonReport",
+  "type": "object",
+  "required": [
+    "report_id",
+    "manager_id",
+    "session_id",
+    "generated_at",
+    "summary",
+    "scores",
+    "issues",
+    "tips"
+  ],
+  "properties": {
+    "report_id": {
+      "type": "string"
+    },
+    "manager_id": {
+      "type": "string"
+    },
+    "session_id": {
+      "type": "string"
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "scores": {
+      "type": "object",
+      "properties": {
+        "total": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "rule": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "llm": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 10
+        },
+        "stages": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    "issues": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "tips": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "timeline": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "ts": {
+            "type": "number"
+          },
+          "event": {
+            "type": "string"
+          },
+          "data": {
+            "type": "object"
+          }
+        }
+      }
+    },
+    "next_actions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "links": {
+      "type": "object",
+      "properties": {
+        "mini_preview": {
+          "type": "string"
+        },
+        "public_key": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

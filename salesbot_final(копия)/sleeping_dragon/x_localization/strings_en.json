@@ -1,0 +1,19 @@
+{
+  "stages": {
+    "greeting": "Greeting",
+    "qualification": "Qualification",
+    "support": "Support",
+    "offer": "Offer",
+    "demo": "Demo",
+    "final": "Final",
+    "upsell": "Upsell",
+    "payment": "Payment",
+    "followup": "Follow‑up"
+  },
+  "ui": {
+    "ok": "OK",
+    "retry": "Retry",
+    "open_arena": "Open Arena",
+    "score": "Score"
+  }
+}

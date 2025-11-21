@@ -1,0 +1,389 @@
+{
+  "items": [
+    {
+      "id": "S000",
+      "text": "sample utterance 0 — тёплая фраза и вопрос?",
+      "stage": "final",
+      "issues": []
+    },
+    {
+      "id": "S001",
+      "text": "sample utterance 1 — тёплая фраза и вопрос?",
+      "stage": "upsell",
+      "issues": [
+        "many_punct",
+        "offtopic"
+      ]
+    },
+    {
+      "id": "S002",
+      "text": "sample utterance 2 — тёплая фраза и вопрос?",
+      "stage": "followup",
+      "issues": []
+    },
+    {
+      "id": "S003",
+      "text": "sample utterance 3 — тёплая фраза и вопрос?",
+      "stage": "final",
+      "issues": [
+        "many_punct",
+        "no_confirmation"
+      ]
+    },
+    {
+      "id": "S004",
+      "text": "sample utterance 4 — тёплая фраза и вопрос?",
+      "stage": "offer",
+      "issues": []
+    },
+    {
+      "id": "S005",
+      "text": "sample utterance 5 — тёплая фраза и вопрос?",
+      "stage": "qualification",
+      "issues": [
+        "missing_demo"
+      ]
+    },
+    {
+      "id": "S006",
+      "text": "sample utterance 6 — тёплая фраза и вопрос?",
+      "stage": "qualification",
+      "issues": []
+    },
+    {
+      "id": "S007",
+      "text": "sample utterance 7 — тёплая фраза и вопрос?",
+      "stage": "qualification",
+      "issues": [
+        "missing_second_demo",
+        "many_punct"
+      ]
+    },
+    {
+      "id": "S008",
+      "text": "sample utterance 8 — тёплая фраза и вопрос?",
+      "stage": "qualification",
+      "issues": []
+    },
+    {
+      "id": "S009",
+      "text": "sample utterance 9 — тёплая фраза и вопрос?",
+      "stage": "greeting",
+      "issues": [
+        "irrelevant_link",
+        "late_reply"
+      ]
+    },
+    {
+      "id": "S010",
+      "text": "sample utterance 10 — тёплая фраза и вопрос?",
+      "stage": "greeting",
+      "issues": []
+    },
+    {
+      "id": "S011",
+      "text": "sample utterance 11 — тёплая фраза и вопрос?",
+      "stage": "greeting",
+      "issues": [
+        "weak_payment_path",
+        "talks_too_much"
+      ]
+    },
+    {
+      "id": "S012",
+      "text": "sample utterance 12 — тёплая фраза и вопрос?",
+      "stage": "upsell",
+      "issues": []
+    },
+    {
+      "id": "S013",
+      "text": "sample utterance 13 — тёплая фраза и вопрос?",
+      "stage": "followup",
+      "issues": []
+    },
+    {
+      "id": "S014",
+      "text": "sample utterance 14 — тёплая фраза и вопрос?",
+      "stage": "demo",
+      "issues": [
+        "interrupting",
+        "no_cta"
+      ]
+    },
+    {
+      "id": "S015",
+      "text": "sample utterance 15 — тёплая фраза и вопрос?",
+      "stage": "offer",
+      "issues": [
+        "no_cta"
+      ]
+    },
+    {
+      "id": "S016",
+      "text": "sample utterance 16 — тёплая фраза и вопрос?",
+      "stage": "followup",
+      "issues": [
+        "offtopic",
+        "caps_lock"
+      ]
+    },
+    {
+      "id": "S017",
+      "text": "sample utterance 17 — тёплая фраза и вопрос?",
+      "stage": "greeting",
+      "issues": [
+        "vague",
+        "no_recap"
+      ]
+    },
+    {
+      "id": "S018",
+      "text": "sample utterance 18 — тёплая фраза и вопрос?",
+      "stage": "followup",
+      "issues": [
+        "cold_tone"
+      ]
+    },
+    {
+      "id": "S019",
+      "text": "sample utterance 19 — тёплая фраза и вопрос?",
+      "stage": "payment",
+      "issues": [
+        "bad_timing",
+        "ignore_emotion"
+      ]
+    },
+    {
+      "id": "S020",
+      "text": "sample utterance 20 — тёплая фраза и вопрос?",
+      "stage": "demo",
+      "issues": []
+    },
+    {
+      "id": "S021",
+      "text": "sample utterance 21 — тёплая фраза и вопрос?",
+      "stage": "support",
+      "issues": [
+        "no_deadline",
+        "no_value"
+      ]
+    },
+    {
+      "id": "S022",
+      "text": "sample utterance 22 — тёплая фраза и вопрос?",
+      "stage": "demo",
+      "issues": [
+        "no_recap",
+        "no_names"
+      ]
+    },
+    {
+      "id": "S023",
+      "text": "sample utterance 23 — тёплая фраза и вопрос?",
+      "stage": "payment",
+      "issues": [
+        "negative_words"
+      ]
+    },
+    {
+      "id": "S024",
+      "text": "sample utterance 24 — тёплая фраза и вопрос?",
+      "stage": "qualification",
+      "issues": []
+    },
+    {
+      "id": "S025",
+      "text": "sample utterance 25 — тёплая фраза и вопрос?",
+      "stage": "followup",
+      "issues": [
+        "robotic"
+      ]
+    },
+    {
+      "id": "S026",
+      "text": "sample utterance 26 — тёплая фраза и вопрос?",
+      "stage": "final",
+      "issues": []
+    },
+    {
+      "id": "S027",
+      "text": "sample utterance 27 — тёплая фраза и вопрос?",
+      "stage": "payment",
+      "issues": [
+        "aggressive"
+      ]
+    },
+    {
+      "id": "S028",
+      "text": "sample utterance 28 — тёплая фраза и вопрос?",
+      "stage": "qualification",
+      "issues": [
+        "caps_lock",
+        "cold_tone"
+      ]
+    },
+    {
+      "id": "S029",
+      "text": "sample utterance 29 — тёплая фраза и вопрос?",
+      "stage": "final",
+      "issues": [
+        "wrong_name",
+        "negative_words"
+      ]
+    },
+    {
+      "id": "S030",
+      "text": "sample utterance 30 — тёплая фраза и вопрос?",
+      "stage": "payment",
+      "issues": [
+        "bad_timing",
+        "offtopic"
+      ]
+    },
+    {
+      "id": "S031",
+      "text": "sample utterance 31 — тёплая фраза и вопрос?",
+      "stage": "qualification",
+      "issues": [
+        "pushy_payment"
+      ]
+    },
+    {
+      "id": "S032",
+      "text": "sample utterance 32 — тёплая фраза и вопрос?",
+      "stage": "qualification",
+      "issues": []
+    },
+    {
+      "id": "S033",
+      "text": "sample utterance 33 — тёплая фраза и вопрос?",
+      "stage": "demo",
+      "issues": [
+        "caps_lock",
+        "no_choice"
+      ]
+    },
+    {
+      "id": "S034",
+      "text": "sample utterance 34 — тёплая фраза и вопрос?",
+      "stage": "demo",
+      "issues": [
+        "contradiction",
+        "wrong_name"
+      ]
+    },
+    {
+      "id": "S035",
+      "text": "sample utterance 35 — тёплая фраза и вопрос?",
+      "stage": "greeting",
+      "issues": [
+        "wrong_name"
+      ]
+    },
+    {
+      "id": "S036",
+      "text": "sample utterance 36 — тёплая фраза и вопрос?",
+      "stage": "support",
+      "issues": [
+        "price_push_hard",
+        "no_recap"
+      ]
+    },
+    {
+      "id": "S037",
+      "text": "sample utterance 37 — тёплая фраза и вопрос?",
+      "stage": "greeting",
+      "issues": []
+    },
+    {
+      "id": "S038",
+      "text": "sample utterance 38 — тёплая фраза и вопрос?",
+      "stage": "demo",
+      "issues": []
+    },
+    {
+      "id": "S039",
+      "text": "sample utterance 39 — тёплая фраза и вопрос?",
+      "stage": "offer",
+      "issues": [
+        "late_reply"
+      ]
+    },
+    {
+      "id": "S040",
+      "text": "sample utterance 40 — тёплая фраза и вопрос?",
+      "stage": "payment",
+      "issues": []
+    },
+    {
+      "id": "S041",
+      "text": "sample utterance 41 — тёплая фраза и вопрос?",
+      "stage": "support",
+      "issues": [
+        "late_reply"
+      ]
+    },
+    {
+      "id": "S042",
+      "text": "sample utterance 42 — тёплая фраза и вопрос?",
+      "stage": "followup",
+      "issues": [
+        "weak_payment_path"
+      ]
+    },
+    {
+      "id": "S043",
+      "text": "sample utterance 43 — тёплая фраза и вопрос?",
+      "stage": "upsell",
+      "issues": [
+        "not_listening",
+        "missing_demo"
+      ]
+    },
+    {
+      "id": "S044",
+      "text": "sample utterance 44 — тёплая фраза и вопрос?",
+      "stage": "final",
+      "issues": [
+        "contradiction",
+        "no_benefit"
+      ]
+    },
+    {
+      "id": "S045",
+      "text": "sample utterance 45 — тёплая фраза и вопрос?",
+      "stage": "support",
+      "issues": []
+    },
+    {
+      "id": "S046",
+      "text": "sample utterance 46 — тёплая фраза и вопрос?",
+      "stage": "support",
+      "issues": []
+    },
+    {
+      "id": "S047",
+      "text": "sample utterance 47 — тёплая фраза и вопрос?",
+      "stage": "offer",
+      "issues": [
+        "no_benefit",
+        "too_short"
+      ]
+    },
+    {
+      "id": "S048",
+      "text": "sample utterance 48 — тёплая фраза и вопрос?",
+      "stage": "payment",
+      "issues": [
+        "interrupting",
+        "no_alt"
+      ]
+    },
+    {
+      "id": "S049",
+      "text": "sample utterance 49 — тёплая фраза и вопрос?",
+      "stage": "demo",
+      "issues": []
+    }
+  ]
+}

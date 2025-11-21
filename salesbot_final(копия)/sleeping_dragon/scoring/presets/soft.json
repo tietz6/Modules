@@ -1,0 +1,16 @@
+{
+  "name": "soft",
+  "stages_weights": {
+    "greeting": 0.15,
+    "qualification": 0.25,
+    "support": 0.2,
+    "offer": 0.15,
+    "demo": 0.1,
+    "final": 0.15
+  },
+  "rule_weight": 0.5,
+  "llm_weight": 0.5,
+  "penalty_floor": 0,
+  "bonus_cap": 8,
+  "notes": "Фокус на тоне и эмпатии"
+}

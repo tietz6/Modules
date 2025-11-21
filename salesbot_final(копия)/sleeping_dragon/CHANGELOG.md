@@ -1,0 +1,11 @@
+# CHANGELOG
+- Build step 1: integrated module upsell → checksum pnu8yswy
+- Build step 2: integrated module arena → checksum q58yuoor
+- Build step 3: integrated module master_path → checksum cchfmbaf
+- Build step 4: integrated module arena → checksum 8wchnw8v
+- Build step 5: integrated module master_path → checksum e49qrddm
+- Build step 6: integrated module objections → checksum rysh8ny6
+- Build step 7: integrated module payments → checksum kxd4s6mi
+- Build step 8: integrated module payments → checksum 2li39433
+- Build step 9: integrated module upsell → checksum hr092rgv
+- Build step 10: integrated module objections → checksum q798nhih

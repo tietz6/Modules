@@ -1,0 +1,18 @@
+{
+  "stage": "demo",
+  "description": {
+    "ru": "Официальные фирменные ответы коуча/менеджера «На Счастье».",
+    "ky": "«На Счастье» брендинин расмий коуч жооптору.",
+    "en": "Official branded coach replies for 'Na Schastye'."
+  },
+  "langs": [
+    "ru",
+    "ky",
+    "en"
+  ],
+  "lengths": [
+    "short",
+    "medium",
+    "long"
+  ]
+}

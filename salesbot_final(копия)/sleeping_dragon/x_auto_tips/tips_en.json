@@ -1,0 +1,13 @@
+{
+  "tips": {
+    "too_short": "Add one value line and a clarifying question.",
+    "no_question": "End with a clarifying question to show care.",
+    "aggressive": "Soften tone: “I understand…” then return to value.",
+    "many_punct": "Remove extra !!?? — it raises tension.",
+    "offtopic": "Gently steer back to the gift goal.",
+    "no_value": "Add how this gift makes the moment special.",
+    "no_cta": "Offer a calm next step.",
+    "price_push_hard": "Don’t push price — value first, then options.",
+    "weak_payment_path": "Explain payment steps calmly and give a choice."
+  }
+}

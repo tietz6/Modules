@@ -1,0 +1,14 @@
+{
+  "bridges": [
+    {
+      "from": "mistake_short",
+      "to": "qualification",
+      "phrase": "Хорошо, уточню один момент, чтобы точно сделать красиво…"
+    },
+    {
+      "from": "mistake_no_question",
+      "to": "support",
+      "phrase": "Позвольте чуть точнее понять ваш замысел…"
+    }
+  ]
+}

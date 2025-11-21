@@ -1,0 +1,19 @@
+{
+  "name": "exam",
+  "stages_weights": {
+    "greeting": 0.1,
+    "qualification": 0.25,
+    "support": 0.15,
+    "offer": 0.2,
+    "demo": 0.15,
+    "final": 0.15
+  },
+  "rule_weight": 0.65,
+  "llm_weight": 0.35,
+  "penalty_floor": 0,
+  "bonus_cap": 0,
+  "questions": 5,
+  "pass_threshold": 70,
+  "excellent_threshold": 90,
+  "notes": "Экзаменационный режим с фиксированными порогами"
+}

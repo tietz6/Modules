@@ -1,0 +1,12 @@
+{
+  "too_short": {
+    "pattern": "^.{0,4}$",
+    "severity": "medium",
+    "example_fix": "Расширь мысль, добавь ценность и мягкий вопрос."
+  },
+  "no_question": {
+    "pattern": "[^?]$",
+    "severity": "low",
+    "example_fix": "Добавь уточняющий вопрос, чтобы продолжить диалог."
+  }
+}

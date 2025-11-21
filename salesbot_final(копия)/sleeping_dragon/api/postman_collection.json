@@ -1,0 +1,59 @@
+{
+  "info": {
+    "name": "Salesbot Core API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Ping",
+      "request": {
+        "method": "GET",
+        "url": "{{base}}/api/public/v1/ping"
+      }
+    },
+    {
+      "name": "Health",
+      "request": {
+        "method": "GET",
+        "url": "{{base}}/api/public/v1/health"
+      }
+    },
+    {
+      "name": "Voice Chat",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"messages\": [{\"role\": \"user\", \"content\": \"\\u041f\\u0440\\u0438\\u0432\\u0435\\u0442!\"}]}"
+        },
+        "url": "{{base}}/voice/v1/llm/chat"
+      }
+    },
+    {
+      "name": "Mini Brand Health",
+      "request": {
+        "method": "GET",
+        "url": "{{base}}/mini/brand/health"
+      }
+    },
+    {
+      "name": "Sleeping Dragon Health",
+      "request": {
+        "method": "GET",
+        "url": "{{base}}/sleeping_dragon/v4/health"
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "base",
+      "value": "http://127.0.0.1:8080"
+    }
+  ]
+}

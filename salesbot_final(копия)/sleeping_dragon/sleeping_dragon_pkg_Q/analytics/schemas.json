@@ -1,0 +1,15 @@
+{
+  "session": {
+    "id": "str",
+    "manager_id": "str",
+    "history": "list",
+    "scores": "dict",
+    "created_at": "iso"
+  },
+  "error": {
+    "module": "str",
+    "time": "int",
+    "type": "str",
+    "message": "str"
+  }
+}

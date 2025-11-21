@@ -1,0 +1,29 @@
+{
+  "greeting": {
+    "multiplier": 1.0
+  },
+  "qualification": {
+    "multiplier": 1.2
+  },
+  "support": {
+    "multiplier": 1.2
+  },
+  "offer": {
+    "multiplier": 1.2
+  },
+  "demo": {
+    "multiplier": 1.2
+  },
+  "final": {
+    "multiplier": 1.2
+  },
+  "upsell": {
+    "multiplier": 1.2
+  },
+  "payment": {
+    "multiplier": 1.2
+  },
+  "followup": {
+    "multiplier": 1.0
+  }
+}

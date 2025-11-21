@@ -1,0 +1,6 @@
+{
+  "csv_headers": {
+    "daily_progress": "date,sessions,avg_score,errors_top3",
+    "manager_kpi": "manager_id,warmth_avg,score_avg,upsell_opens,payments"
+  }
+}

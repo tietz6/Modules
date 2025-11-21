@@ -1,0 +1,484 @@
+{
+  "rules": [
+    {
+      "id": "R01_too_short",
+      "issue": "too_short",
+      "penalty": 2,
+      "examples": [
+        "пример 1-a для too_short",
+        "пример 1-b для too_short"
+      ],
+      "tip_ru": "Смягчи тон, добавь ценность, заверши уточняющим вопросом.",
+      "tip_ky": "Тону жумшарт, баалуулук кош, тактоо суроо менен аякта.",
+      "tip_en": "Soften tone, add value, end with a clarifying question."
+    },
+    {
+      "id": "R02_no_question",
+      "issue": "no_question",
+      "penalty": 3,
+      "examples": [
+        "пример 2-a для no_question",
+        "пример 2-b для no_question"
+      ],
+      "tip_ru": "Смягчи тон, добавь ценность, заверши уточняющим вопросом.",
+      "tip_ky": "Тону жумшарт, баалуулук кош, тактоо суроо менен аякта.",
+      "tip_en": "Soften tone, add value, end with a clarifying question."
+    },
+    {
+      "id": "R03_aggressive",
+      "issue": "aggressive",
+      "penalty": 1,
+      "examples": [
+        "пример 3-a для aggressive",
+        "пример 3-b для aggressive"
+      ],
+      "tip_ru": "Смягчи тон, добавь ценность, заверши уточняющим вопросом.",
+      "tip_ky": "Тону жумшарт, баалуулук кош, тактоо суроо менен аякта.",
+      "tip_en": "Soften tone, add value, end with a clarifying question."
+    },
+    {
+      "id": "R04_many_punct",
+      "issue": "many_punct",
+      "penalty": 2,
+      "examples": [
+        "пример 4-a для many_punct",
+        "пример 4-b для many_punct"
+      ],
+      "tip_ru": "Смягчи тон, добавь ценность, заверши уточняющим вопросом.",
+      "tip_ky": "Тону жумшарт, баалуулук кош, тактоо суроо менен аякта.",
+      "tip_en": "Soften tone, add value, end with a clarifying question."
+    },
+    {
+      "id": "R05_offtopic",
+      "issue": "offtopic",
+      "penalty": 3,
+      "examples": [
+        "пример 5-a для offtopic",
+        "пример 5-b для offtopic"
+      ],
+      "tip_ru": "Смягчи тон, добавь ценность, заверши уточняющим вопросом.",
+      "tip_ky": "Тону жумшарт, баалуулук кош, тактоо суроо менен аякта.",
+      "tip_en": "Soften tone, add value, end with a clarifying question."
+    },
+    {
+      "id": "R06_no_value",
+      "issue": "no_value",
+      "penalty": 1,
+      "examples": [
+        "пример 6-a для no_value",
+        "пример 6-b для no_value"
+      ],
+      "tip_ru": "Смягчи тон, добавь ценность, заверши уточняющим вопросом.",
+      "tip_ky": "Тону жумшарт, баалуулук кош, тактоо суроо менен аякта.",
+      "tip_en": "Soften tone, add value, end with a clarifying question."
+    },
+    {
+      "id": "R07_no_cta",
+      "issue": "no_cta",
+      "penalty": 2,
+      "examples": [
+        "пример 7-a для no_cta",
+        "пример 7-b для no_cta"
+      ],
+      "tip_ru": "Смягчи тон, добавь ценность, заверши уточняющим вопросом.",
+      "tip_ky": "Тону жумшарт, баалуулук кош, тактоо суроо менен аякта.",
+      "tip_en": "Soften tone, add value, end with a clarifying question."
+    },
+    {
+      "id": "R08_price_push_hard",
+      "issue": "price_push_hard",
+      "penalty": 3,
+      "examples": [
+        "пример 8-a для price_push_hard",
+        "пример 8-b для price_push_hard"
+      ],
+      "tip_ru": "Смягчи тон, добавь ценность, заверши уточняющим вопросом.",
+      "tip_ky": "Тону жумшарт, баалуулук кош, тактоо суроо менен аякта.",
+      "tip_en": "Soften tone, add value, end with a clarifying question."
+    },
+    {
+      "id": "R09_weak_payment_path",
+      "issue": "weak_payment_path",
+      "penalty": 1,
+      "examples": [
+        "пример 9-a для weak_payment_path",
+        "пример 9-b для weak_payment_path"
+      ],
+      "tip_ru": "Смягчи тон, добавь ценность, заверши уточняющим вопросом.",
+      "tip_ky": "Тону жумшарт, баалуулук кош, тактоо суроо менен аякта.",
+      "tip_en": "Soften tone, add value, end with a clarifying question."
+    },
+    {
+      "id": "R10_no_empathy",
+      "issue": "no_empathy",
+      "penalty": 2,
+      "examples": [
+        "пример 10-a для no_empathy",
+        "пример 10-b для no_empathy"
+      ],
+      "tip_ru": "Смягчи тон, добавь ценность, заверши уточняющим вопросом.",
+      "tip_ky": "Тону жумшарт, баалуулук кош, тактоо суроо менен аякта.",
+      "tip_en": "Soften tone, add value, end with a clarifying question."
+    },
+    {
+      "id": "R11_robotic",
+      "issue": "robotic",
+      "penalty": 3,
+      "examples": [
+        "пример 11-a для robotic",
+        "пример 11-b для robotic"
+      ],
+      "tip_ru": "Смягчи тон, добавь ценность, заверши уточняющим вопросом.",
+      "tip_ky": "Тону жумшарт, баалуулук кош, тактоо суроо менен аякта.",
+      "tip_en": "Soften tone, add value, end with a clarifying question."
+    },
+    {
+      "id": "R12_interrupting",
+      "issue": "interrupting",
+      "penalty": 1,
+      "examples": [
+        "пример 12-a для interrupting",
+        "пример 12-b для interrupting"
+      ],
+      "tip_ru": "Смягчи тон, добавь ценность, заверши уточняющим вопросом.",
+      "tip_ky": "Тону жумшарт, баалуулук кош, тактоо суроо менен аякта.",
+      "tip_en": "Soften tone, add value, end with a clarifying question."
+    },
+    {
+      "id": "R13_overpromising",
+      "issue": "overpromising",
+      "penalty": 2,
+      "examples": [
+        "пример 13-a для overpromising",
+        "пример 13-b для overpromising"
+      ],
+      "tip_ru": "Смягчи тон, добавь ценность, заверши уточняющим вопросом.",
+      "tip_ky": "Тону жумшарт, баалуулук кош, тактоо суроо менен аякта.",
+      "tip_en": "Soften tone, add value, end with a clarifying question."
+    },
+    {
+      "id": "R14_vague",
+      "issue": "vague",
+      "penalty": 3,
+      "examples": [
+        "пример 14-a для vague",
+        "пример 14-b для vague"
+      ],
+      "tip_ru": "Смягчи тон, добавь ценность, заверши уточняющим вопросом.",
+      "tip_ky": "Тону жумшарт, баалуулук кош, тактоо суроо менен аякта.",
+      "tip_en": "Soften tone, add value, end with a clarifying question."
+    },
+    {
+      "id": "R15_no_benefit",
+      "issue": "no_benefit",
+      "penalty": 1,
+      "examples": [
+        "пример 15-a для no_benefit",
+        "пример 15-b для no_benefit"
+      ],
+      "tip_ru": "Смягчи тон, добавь ценность, заверши уточняющим вопросом.",
+      "tip_ky": "Тону жумшарт, баалуулук кош, тактоо суроо менен аякта.",
+      "tip_en": "Soften tone, add value, end with a clarifying question."
+    },
+    {
+      "id": "R16_no_deadline",
+      "issue": "no_deadline",
+      "penalty": 2,
+      "examples": [
+        "пример 16-a для no_deadline",
+        "пример 16-b для no_deadline"
+      ],
+      "tip_ru": "Смягчи тон, добавь ценность, заверши уточняющим вопросом.",
+      "tip_ky": "Тону жумшарт, баалуулук кош, тактоо суроо менен аякта.",
+      "tip_en": "Soften tone, add value, end with a clarifying question."
+    },
+    {
+      "id": "R17_no_alt",
+      "issue": "no_alt",
+      "penalty": 3,
+      "examples": [
+        "пример 17-a для no_alt",
+        "пример 17-b для no_alt"
+      ],
+      "tip_ru": "Смягчи тон, добавь ценность, заверши уточняющим вопросом.",
+      "tip_ky": "Тону жумшарт, баалуулук кош, тактоо суроо менен аякта.",
+      "tip_en": "Soften tone, add value, end with a clarifying question."
+    },
+    {
+      "id": "R18_not_listening",
+      "issue": "not_listening",
+      "penalty": 1,
+      "examples": [
+        "пример 18-a для not_listening",
+        "пример 18-b для not_listening"
+      ],
+      "tip_ru": "Смягчи тон, добавь ценность, заверши уточняющим вопросом.",
+      "tip_ky": "Тону жумшарт, баалуулук кош, тактоо суроо менен аякта.",
+      "tip_en": "Soften tone, add value, end with a clarifying question."
+    },
+    {
+      "id": "R19_talks_too_much",
+      "issue": "talks_too_much",
+      "penalty": 2,
+      "examples": [
+        "пример 19-a для talks_too_much",
+        "пример 19-b для talks_too_much"
+      ],
+      "tip_ru": "Смягчи тон, добавь ценность, заверши уточняющим вопросом.",
+      "tip_ky": "Тону жумшарт, баалуулук кош, тактоо суроо менен аякта.",
+      "tip_en": "Soften tone, add value, end with a clarifying question."
+    },
+    {
+      "id": "R20_jargon",
+      "issue": "jargon",
+      "penalty": 3,
+      "examples": [
+        "пример 20-a для jargon",
+        "пример 20-b для jargon"
+      ],
+      "tip_ru": "Смягчи тон, добавь ценность, заверши уточняющим вопросом.",
+      "tip_ky": "Тону жумшарт, баалуулук кош, тактоо суроо менен аякта.",
+      "tip_en": "Soften tone, add value, end with a clarifying question."
+    },
+    {
+      "id": "R21_cold_tone",
+      "issue": "cold_tone",
+      "penalty": 1,
+      "examples": [
+        "пример 21-a для cold_tone",
+        "пример 21-b для cold_tone"
+      ],
+      "tip_ru": "Смягчи тон, добавь ценность, заверши уточняющим вопросом.",
+      "tip_ky": "Тону жумшарт, баалуулук кош, тактоо суроо менен аякта.",
+      "tip_en": "Soften tone, add value, end with a clarifying question."
+    },
+    {
+      "id": "R22_no_names",
+      "issue": "no_names",
+      "penalty": 2,
+      "examples": [
+        "пример 22-a для no_names",
+        "пример 22-b для no_names"
+      ],
+      "tip_ru": "Смягчи тон, добавь ценность, заверши уточняющим вопросом.",
+      "tip_ky": "Тону жумшарт, баалуулук кош, тактоо суроо менен аякта.",
+      "tip_en": "Soften tone, add value, end with a clarifying question."
+    },
+    {
+      "id": "R23_wrong_name",
+      "issue": "wrong_name",
+      "penalty": 3,
+      "examples": [
+        "пример 23-a для wrong_name",
+        "пример 23-b для wrong_name"
+      ],
+      "tip_ru": "Смягчи тон, добавь ценность, заверши уточняющим вопросом.",
+      "tip_ky": "Тону жумшарт, баалуулук кош, тактоо суроо менен аякта.",
+      "tip_en": "Soften tone, add value, end with a clarifying question."
+    },
+    {
+      "id": "R24_ignore_emotion",
+      "issue": "ignore_emotion",
+      "penalty": 1,
+      "examples": [
+        "пример 24-a для ignore_emotion",
+        "пример 24-b для ignore_emotion"
+      ],
+      "tip_ru": "Смягчи тон, добавь ценность, заверши уточняющим вопросом.",
+      "tip_ky": "Тону жумшарт, баалуулук кош, тактоо суроо менен аякта.",
+      "tip_en": "Soften tone, add value, end with a clarifying question."
+    },
+    {
+      "id": "R25_contradiction",
+      "issue": "contradiction",
+      "penalty": 2,
+      "examples": [
+        "пример 25-a для contradiction",
+        "пример 25-b для contradiction"
+      ],
+      "tip_ru": "Смягчи тон, добавь ценность, заверши уточняющим вопросом.",
+      "tip_ky": "Тону жумшарт, баалуулук кош, тактоо суроо менен аякта.",
+      "tip_en": "Soften tone, add value, end with a clarifying question."
+    },
+    {
+      "id": "R26_late_reply",
+      "issue": "late_reply",
+      "penalty": 3,
+      "examples": [
+        "пример 26-a для late_reply",
+        "пример 26-b для late_reply"
+      ],
+      "tip_ru": "Смягчи тон, добавь ценность, заверши уточняющим вопросом.",
+      "tip_ky": "Тону жумшарт, баалуулук кош, тактоо суроо менен аякта.",
+      "tip_en": "Soften tone, add value, end with a clarifying question."
+    },
+    {
+      "id": "R27_missing_demo",
+      "issue": "missing_demo",
+      "penalty": 1,
+      "examples": [
+        "пример 27-a для missing_demo",
+        "пример 27-b для missing_demo"
+      ],
+      "tip_ru": "Смягчи тон, добавь ценность, заверши уточняющим вопросом.",
+      "tip_ky": "Тону жумшарт, баалуулук кош, тактоо суроо менен аякта.",
+      "tip_en": "Soften tone, add value, end with a clarifying question."
+    },
+    {
+      "id": "R28_missing_second_demo",
+      "issue": "missing_second_demo",
+      "penalty": 2,
+      "examples": [
+        "пример 28-a для missing_second_demo",
+        "пример 28-b для missing_second_demo"
+      ],
+      "tip_ru": "Смягчи тон, добавь ценность, заверши уточняющим вопросом.",
+      "tip_ky": "Тону жумшарт, баалуулук кош, тактоо суроо менен аякта.",
+      "tip_en": "Soften tone, add value, end with a clarifying question."
+    },
+    {
+      "id": "R29_no_choice",
+      "issue": "no_choice",
+      "penalty": 3,
+      "examples": [
+        "пример 29-a для no_choice",
+        "пример 29-b для no_choice"
+      ],
+      "tip_ru": "Смягчи тон, добавь ценность, заверши уточняющим вопросом.",
+      "tip_ky": "Тону жумшарт, баалуулук кош, тактоо суроо менен аякта.",
+      "tip_en": "Soften tone, add value, end with a clarifying question."
+    },
+    {
+      "id": "R30_bad_timing",
+      "issue": "bad_timing",
+      "penalty": 1,
+      "examples": [
+        "пример 30-a для bad_timing",
+        "пример 30-b для bad_timing"
+      ],
+      "tip_ru": "Смягчи тон, добавь ценность, заверши уточняющим вопросом.",
+      "tip_ky": "Тону жумшарт, баалуулук кош, тактоо суроо менен аякта.",
+      "tip_en": "Soften tone, add value, end with a clarifying question."
+    },
+    {
+      "id": "R31_pushy_payment",
+      "issue": "pushy_payment",
+      "penalty": 2,
+      "examples": [
+        "пример 31-a для pushy_payment",
+        "пример 31-b для pushy_payment"
+      ],
+      "tip_ru": "Смягчи тон, добавь ценность, заверши уточняющим вопросом.",
+      "tip_ky": "Тону жумшарт, баалуулук кош, тактоо суроо менен аякта.",
+      "tip_en": "Soften tone, add value, end with a clarifying question."
+    },
+    {
+      "id": "R32_no_recap",
+      "issue": "no_recap",
+      "penalty": 3,
+      "examples": [
+        "пример 32-a для no_recap",
+        "пример 32-b для no_recap"
+      ],
+      "tip_ru": "Смягчи тон, добавь ценность, заверши уточняющим вопросом.",
+      "tip_ky": "Тону жумшарт, баалуулук кош, тактоо суроо менен аякта.",
+      "tip_en": "Soften tone, add value, end with a clarifying question."
+    },
+    {
+      "id": "R33_no_confirmation",
+      "issue": "no_confirmation",
+      "penalty": 1,
+      "examples": [
+        "пример 33-a для no_confirmation",
+        "пример 33-b для no_confirmation"
+      ],
+      "tip_ru": "Смягчи тон, добавь ценность, заверши уточняющим вопросом.",
+      "tip_ky": "Тону жумшарт, баалуулук кош, тактоо суроо менен аякта.",
+      "tip_en": "Soften tone, add value, end with a clarifying question."
+    },
+    {
+      "id": "R34_no_followup",
+      "issue": "no_followup",
+      "penalty": 2,
+      "examples": [
+        "пример 34-a для no_followup",
+        "пример 34-b для no_followup"
+      ],
+      "tip_ru": "Смягчи тон, добавь ценность, заверши уточняющим вопросом.",
+      "tip_ky": "Тону жумшарт, баалуулук кош, тактоо суроо менен аякта.",
+      "tip_en": "Soften tone, add value, end with a clarifying question."
+    },
+    {
+      "id": "R35_typos_heavy",
+      "issue": "typos_heavy",
+      "penalty": 3,
+      "examples": [
+        "пример 35-a для typos_heavy",
+        "пример 35-b для typos_heavy"
+      ],
+      "tip_ru": "Смягчи тон, добавь ценность, заверши уточняющим вопросом.",
+      "tip_ky": "Тону жумшарт, баалуулук кош, тактоо суроо менен аякта.",
+      "tip_en": "Soften tone, add value, end with a clarifying question."
+    },
+    {
+      "id": "R36_emoji_spam",
+      "issue": "emoji_spam",
+      "penalty": 1,
+      "examples": [
+        "пример 36-a для emoji_spam",
+        "пример 36-b для emoji_spam"
+      ],
+      "tip_ru": "Смягчи тон, добавь ценность, заверши уточняющим вопросом.",
+      "tip_ky": "Тону жумшарт, баалуулук кош, тактоо суроо менен аякта.",
+      "tip_en": "Soften tone, add value, end with a clarifying question."
+    },
+    {
+      "id": "R37_caps_lock",
+      "issue": "caps_lock",
+      "penalty": 2,
+      "examples": [
+        "пример 37-a для caps_lock",
+        "пример 37-b для caps_lock"
+      ],
+      "tip_ru": "Смягчи тон, добавь ценность, заверши уточняющим вопросом.",
+      "tip_ky": "Тону жумшарт, баалуулук кош, тактоо суроо менен аякта.",
+      "tip_en": "Soften tone, add value, end with a clarifying question."
+    },
+    {
+      "id": "R38_irrelevant_link",
+      "issue": "irrelevant_link",
+      "penalty": 3,
+      "examples": [
+        "пример 38-a для irrelevant_link",
+        "пример 38-b для irrelevant_link"
+      ],
+      "tip_ru": "Смягчи тон, добавь ценность, заверши уточняющим вопросом.",
+      "tip_ky": "Тону жумшарт, баалуулук кош, тактоо суроо менен аякта.",
+      "tip_en": "Soften tone, add value, end with a clarifying question."
+    },
+    {
+      "id": "R39_negative_words",
+      "issue": "negative_words",
+      "penalty": 1,
+      "examples": [
+        "пример 39-a для negative_words",
+        "пример 39-b для negative_words"
+      ],
+      "tip_ru": "Смягчи тон, добавь ценность, заверши уточняющим вопросом.",
+      "tip_ky": "Тону жумшарт, баалуулук кош, тактоо суроо менен аякта.",
+      "tip_en": "Soften tone, add value, end with a clarifying question."
+    },
+    {
+      "id": "R40_no_story",
+      "issue": "no_story",
+      "penalty": 2,
+      "examples": [
+        "пример 40-a для no_story",
+        "пример 40-b для no_story"
+      ],
+      "tip_ru": "Смягчи тон, добавь ценность, заверши уточняющим вопросом.",
+      "tip_ky": "Тону жумшарт, баалуулук кош, тактоо суроо менен аякта.",
+      "tip_en": "Soften tone, add value, end with a clarifying question."
+    }
+  ]
+}

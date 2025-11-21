@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ru">
+<head><meta charset="utf-8"><title>Sleeping Dragon — Report</title>
+<style>
+body{font-family:system-ui,Arial,sans-serif;background:#0b0f14;color:#e9eef5;margin:0;padding:24px}
+.card{background:#121923;border:1px solid #1d2733;border-radius:14px;padding:16px;margin-bottom:16px}
+.badge{display:inline-block;padding:4px 10px;border-radius:999px;background:#1f2a38;color:#9ecbff;font-weight:600;font-size:12px}
+.kpi{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.kpi .tile{background:#0f151d;border:1px solid #1d2733;border-radius:12px;padding:12px;text-align:center}
+h1{font-size:22px;margin:8px 0 16px}
+h2{font-size:16px;margin:0 0 8px}
+ul{margin:6px 0 6px 18px}
+small{color:#9fb2c7}
+</style></head>
+<body>
+<div class="card"><span class="badge">Sleeping Dragon</span>
+<h1>Отчёт по сессии</h1>
+<div><small>Manager: {{manager_id}} · Session: {{session_id}} · {{generated_at}}</small></div>
+<p>{{summary}}</p></div>
+
+<div class="card kpi">
+  <div class="tile"><div><small>Итог</small></div><div style="font-size:24px">{{scores.total}}</div></div>
+  <div class="tile"><div><small>Rule</small></div><div style="font-size:24px">{{scores.rule}}/10</div></div>
+  <div class="tile"><div><small>LLM</small></div><div style="font-size:24px">{{scores.llm}}/10</div></div>
+  <div class="tile"><div><small>Стадии</small></div><div style="font-size:14px">{{stages_inline}}</div></div>
+</div>
+
+<div class="card"><h2>Ключевые ошибки</h2><ul>{{issues_li}}</ul></div>
+<div class="card"><h2>Советы коуча</h2><ul>{{tips_li}}</ul></div>
+<div class="card"><h2>Следующие шаги</h2><ul>{{next_actions_li}}</ul></div>
+<div class="card"><h2>Ссылки</h2><ul>{{links_li}}</ul></div>
+</body></html>

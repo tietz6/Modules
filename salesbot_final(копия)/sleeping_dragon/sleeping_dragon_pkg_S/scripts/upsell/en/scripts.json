@@ -1,0 +1,1204 @@
+{
+  "items": [
+    {
+      "id": "upsell_en_001",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 1: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_002",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 2: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_003",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 3: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_004",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 4: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_005",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 5: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_006",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 6: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_007",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 7: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_008",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 8: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_009",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 9: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_010",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 10: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_011",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 11: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_012",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 12: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_013",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 13: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_014",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 14: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_015",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 15: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_016",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 16: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_017",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 17: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_018",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 18: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_019",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 19: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_020",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 20: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_021",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 21: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_022",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 22: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_023",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 23: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_024",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 24: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_025",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 25: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_026",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 26: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_027",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 27: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_028",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 28: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_029",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 29: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_030",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 30: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_031",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 31: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_032",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 32: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_033",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 33: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_034",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 34: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_035",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 35: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_036",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 36: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_037",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 37: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_038",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 38: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_039",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 39: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_040",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 40: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_041",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 41: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_042",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 42: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_043",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 43: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_044",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 44: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_045",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 45: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_046",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 46: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_047",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 47: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_048",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 48: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_049",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 49: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_050",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 50: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_051",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 51: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_052",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 52: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_053",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 53: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_054",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 54: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_055",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 55: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_056",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 56: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_057",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 57: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_058",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 58: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_059",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 59: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_060",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 60: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_061",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 61: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_062",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 62: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_063",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 63: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_064",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 64: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_065",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 65: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_066",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 66: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_067",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 67: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_068",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 68: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_069",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 69: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_070",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 70: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_071",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 71: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_072",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 72: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_073",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 73: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_074",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 74: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_075",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 75: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_076",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 76: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_077",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 77: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_078",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 78: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_079",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 79: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_080",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 80: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_081",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 81: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_082",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 82: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_083",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 83: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_084",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 84: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_085",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 85: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_086",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 86: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_087",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 87: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_088",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 88: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_089",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 89: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_090",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 90: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_091",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 91: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_092",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 92: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_093",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 93: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_094",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 94: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_095",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 95: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_096",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 96: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_097",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 97: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_098",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 98: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_099",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 99: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "upsell_en_100",
+      "stage": "upsell",
+      "lang": "en",
+      "script": "Script 100: value → clarifying question → soft CTA. (upsell)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    }
+  ]
+}

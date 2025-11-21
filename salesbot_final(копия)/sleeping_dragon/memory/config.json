@@ -1,0 +1,6 @@
+{
+  "db_path": "salesbot.db",
+  "kv_prefix": "sd:mem:",
+  "retention_days": 180,
+  "max_history": 300
+}

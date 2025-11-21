@@ -1,0 +1,34 @@
+{
+  "faq": [
+    {
+      "type": "price",
+      "q": "Почему так дорого?",
+      "a": "Explain value briefly, offer options, and a calm next step.",
+      "cta": "Готовы начать сегодня?"
+    },
+    {
+      "type": "time",
+      "q": "Можно позже?",
+      "a": "Explain value briefly, offer options, and a calm next step.",
+      "cta": "Готовы начать сегодня?"
+    },
+    {
+      "type": "trust",
+      "q": "Как вы работаете?",
+      "a": "Explain value briefly, offer options, and a calm next step.",
+      "cta": "Готовы начать сегодня?"
+    },
+    {
+      "type": "quality",
+      "q": "А качество?",
+      "a": "Explain value briefly, offer options, and a calm next step.",
+      "cta": "Готовы начать сегодня?"
+    },
+    {
+      "type": "compare",
+      "q": "А у конкурентов дешевле.",
+      "a": "Explain value briefly, offer options, and a calm next step.",
+      "cta": "Готовы начать сегодня?"
+    }
+  ]
+}

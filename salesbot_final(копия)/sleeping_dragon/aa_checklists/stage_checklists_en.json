@@ -1,0 +1,67 @@
+{
+  "stages": {
+    "greeting": [
+      "Warm greeting",
+      "Ask occasion",
+      "Ask feelings",
+      "Brief value",
+      "Soft CTA"
+    ],
+    "qualification": [
+      "Warm greeting",
+      "Ask occasion",
+      "Ask feelings",
+      "Brief value",
+      "Soft CTA"
+    ],
+    "support": [
+      "Warm greeting",
+      "Ask occasion",
+      "Ask feelings",
+      "Brief value",
+      "Soft CTA"
+    ],
+    "offer": [
+      "Warm greeting",
+      "Ask occasion",
+      "Ask feelings",
+      "Brief value",
+      "Soft CTA"
+    ],
+    "demo": [
+      "Warm greeting",
+      "Ask occasion",
+      "Ask feelings",
+      "Brief value",
+      "Soft CTA"
+    ],
+    "final": [
+      "Warm greeting",
+      "Ask occasion",
+      "Ask feelings",
+      "Brief value",
+      "Soft CTA"
+    ],
+    "upsell": [
+      "Warm greeting",
+      "Ask occasion",
+      "Ask feelings",
+      "Brief value",
+      "Soft CTA"
+    ],
+    "payment": [
+      "Warm greeting",
+      "Ask occasion",
+      "Ask feelings",
+      "Brief value",
+      "Soft CTA"
+    ],
+    "followup": [
+      "Warm greeting",
+      "Ask occasion",
+      "Ask feelings",
+      "Brief value",
+      "Soft CTA"
+    ]
+  }
+}

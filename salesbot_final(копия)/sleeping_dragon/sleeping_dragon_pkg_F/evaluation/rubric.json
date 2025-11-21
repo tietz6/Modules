@@ -1,0 +1,13 @@
+{
+  "weights": {
+    "empathy": 0.2,
+    "clarify": 0.2,
+    "value": 0.2,
+    "choice": 0.2,
+    "brevity": 0.2
+  },
+  "thresholds": {
+    "pass": 0.7,
+    "excellent": 0.9
+  }
+}

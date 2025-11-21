@@ -1,0 +1,33 @@
+{
+  "rubric": {
+    "greeting": {
+      "warmth": 0.4,
+      "clarity": 0.3,
+      "question": 0.3
+    },
+    "qualification": {
+      "questions": 0.5,
+      "empathy": 0.25,
+      "value": 0.25
+    },
+    "offer": {
+      "value": 0.5,
+      "structure": 0.3,
+      "cta": 0.2
+    },
+    "demo": {
+      "framing": 0.4,
+      "contrast": 0.3,
+      "soft_push": 0.3
+    },
+    "final": {
+      "payment_path": 0.5,
+      "confidence": 0.3,
+      "calm": 0.2
+    }
+  },
+  "thresholds": {
+    "pass": 60,
+    "excellent": 85
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "boss": {
+    "chat_id": "670301742",
+    "channels": [
+      "training",
+      "kpi",
+      "cases",
+      "deals"
+    ]
+  }
+}

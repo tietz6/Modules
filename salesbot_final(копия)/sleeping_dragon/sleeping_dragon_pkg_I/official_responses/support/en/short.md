@@ -1,0 +1,27 @@
+# Replies
+
+- 1. Warm brand reply — variant 1.
+- 2. Warm brand reply — variant 2.
+- 3. Warm brand reply — variant 3.
+- 4. Warm brand reply — variant 4.
+- 5. Warm brand reply — variant 5.
+- 6. Warm brand reply — variant 6.
+- 7. Warm brand reply — variant 7.
+- 8. Warm brand reply — variant 8.
+- 9. Warm brand reply — variant 9.
+- 10. Warm brand reply — variant 10.
+- 11. Warm brand reply — variant 11.
+- 12. Warm brand reply — variant 12.
+- 13. Warm brand reply — variant 13.
+- 14. Warm brand reply — variant 14.
+- 15. Warm brand reply — variant 15.
+- 16. Warm brand reply — variant 16.
+- 17. Warm brand reply — variant 17.
+- 18. Warm brand reply — variant 18.
+- 19. Warm brand reply — variant 19.
+- 20. Warm brand reply — variant 20.
+- 21. Warm brand reply — variant 21.
+- 22. Warm brand reply — variant 22.
+- 23. Warm brand reply — variant 23.
+- 24. Warm brand reply — variant 24.
+- 25. Warm brand reply — variant 25.

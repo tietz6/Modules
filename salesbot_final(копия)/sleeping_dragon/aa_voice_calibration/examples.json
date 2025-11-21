@@ -1,0 +1,31 @@
+{
+  "examples": [
+    {
+      "label": "calm_confident",
+      "speed_wpm": 135,
+      "pauses_per_min": 6,
+      "energy": 0.72,
+      "clarity": 0.88,
+      "pitch_var": 0.6,
+      "tip_ru": "Отличный темп и тепло."
+    },
+    {
+      "label": "too_fast",
+      "speed_wpm": 200,
+      "pauses_per_min": 1,
+      "energy": 0.8,
+      "clarity": 0.7,
+      "pitch_var": 0.4,
+      "tip_ru": "Замедлиться и добавить паузы."
+    },
+    {
+      "label": "too_cold",
+      "speed_wpm": 120,
+      "pauses_per_min": 4,
+      "energy": 0.4,
+      "clarity": 0.85,
+      "pitch_var": 0.35,
+      "tip_ru": "Добавить тепла и вариативности голоса."
+    }
+  ]
+}

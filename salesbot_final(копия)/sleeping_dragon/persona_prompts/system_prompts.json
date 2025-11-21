@@ -1,0 +1,5 @@
+{
+  "coach": "<<system prompt for coach>>",
+  "client_strict": "<<system prompt for strict client>>",
+  "client_warm": "<<system prompt for warm client>>"
+}

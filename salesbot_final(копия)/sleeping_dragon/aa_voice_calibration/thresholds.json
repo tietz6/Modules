@@ -1,0 +1,27 @@
+{
+  "speed_wpm": {
+    "low": 90,
+    "target": 140,
+    "high": 190
+  },
+  "pauses_per_min": {
+    "low": 2,
+    "target": 6,
+    "high": 12
+  },
+  "energy": {
+    "low": 0.45,
+    "target": 0.7,
+    "high": 0.9
+  },
+  "clarity": {
+    "low": 0.6,
+    "target": 0.85,
+    "high": 0.95
+  },
+  "pitch_var": {
+    "low": 0.3,
+    "target": 0.55,
+    "high": 0.8
+  }
+}

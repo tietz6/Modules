@@ -1,0 +1,21 @@
+{
+  "type": "object",
+  "properties": {
+    "stages": {
+      "type": "object"
+    },
+    "total": {
+      "type": "number"
+    },
+    "issues": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "stages",
+    "total"
+  ]
+}

@@ -1,0 +1,1268 @@
+{
+  "bundles": [
+    {
+      "id": "sb_001",
+      "topic": "wedding",
+      "difficulty": "hard",
+      "turns": [
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        }
+      ]
+    },
+    {
+      "id": "sb_002",
+      "topic": "anniversary",
+      "difficulty": "hard",
+      "turns": [
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        }
+      ]
+    },
+    {
+      "id": "sb_003",
+      "topic": "anniversary",
+      "difficulty": "easy",
+      "turns": [
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        }
+      ]
+    },
+    {
+      "id": "sb_004",
+      "topic": "birthday",
+      "difficulty": "easy",
+      "turns": [
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        }
+      ]
+    },
+    {
+      "id": "sb_005",
+      "topic": "anniversary",
+      "difficulty": "easy",
+      "turns": [
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        }
+      ]
+    },
+    {
+      "id": "sb_006",
+      "topic": "birthday",
+      "difficulty": "medium",
+      "turns": [
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        }
+      ]
+    },
+    {
+      "id": "sb_007",
+      "topic": "birthday",
+      "difficulty": "medium",
+      "turns": [
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        }
+      ]
+    },
+    {
+      "id": "sb_008",
+      "topic": "wedding",
+      "difficulty": "medium",
+      "turns": [
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        }
+      ]
+    },
+    {
+      "id": "sb_009",
+      "topic": "wedding",
+      "difficulty": "easy",
+      "turns": [
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        }
+      ]
+    },
+    {
+      "id": "sb_010",
+      "topic": "anniversary",
+      "difficulty": "easy",
+      "turns": [
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        }
+      ]
+    },
+    {
+      "id": "sb_011",
+      "topic": "birthday",
+      "difficulty": "easy",
+      "turns": [
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        }
+      ]
+    },
+    {
+      "id": "sb_012",
+      "topic": "anniversary",
+      "difficulty": "medium",
+      "turns": [
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        }
+      ]
+    },
+    {
+      "id": "sb_013",
+      "topic": "family",
+      "difficulty": "medium",
+      "turns": [
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        }
+      ]
+    },
+    {
+      "id": "sb_014",
+      "topic": "romance",
+      "difficulty": "easy",
+      "turns": [
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        }
+      ]
+    },
+    {
+      "id": "sb_015",
+      "topic": "birthday",
+      "difficulty": "medium",
+      "turns": [
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        }
+      ]
+    },
+    {
+      "id": "sb_016",
+      "topic": "birthday",
+      "difficulty": "easy",
+      "turns": [
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        }
+      ]
+    },
+    {
+      "id": "sb_017",
+      "topic": "romance",
+      "difficulty": "medium",
+      "turns": [
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        }
+      ]
+    },
+    {
+      "id": "sb_018",
+      "topic": "birthday",
+      "difficulty": "medium",
+      "turns": [
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        }
+      ]
+    },
+    {
+      "id": "sb_019",
+      "topic": "family",
+      "difficulty": "hard",
+      "turns": [
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        }
+      ]
+    },
+    {
+      "id": "sb_020",
+      "topic": "wedding",
+      "difficulty": "easy",
+      "turns": [
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        }
+      ]
+    },
+    {
+      "id": "sb_021",
+      "topic": "anniversary",
+      "difficulty": "medium",
+      "turns": [
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        }
+      ]
+    },
+    {
+      "id": "sb_022",
+      "topic": "anniversary",
+      "difficulty": "hard",
+      "turns": [
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        }
+      ]
+    },
+    {
+      "id": "sb_023",
+      "topic": "romance",
+      "difficulty": "easy",
+      "turns": [
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        }
+      ]
+    },
+    {
+      "id": "sb_024",
+      "topic": "birthday",
+      "difficulty": "hard",
+      "turns": [
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        }
+      ]
+    },
+    {
+      "id": "sb_025",
+      "topic": "romance",
+      "difficulty": "easy",
+      "turns": [
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        }
+      ]
+    },
+    {
+      "id": "sb_026",
+      "topic": "wedding",
+      "difficulty": "hard",
+      "turns": [
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        }
+      ]
+    },
+    {
+      "id": "sb_027",
+      "topic": "romance",
+      "difficulty": "medium",
+      "turns": [
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        }
+      ]
+    },
+    {
+      "id": "sb_028",
+      "topic": "birthday",
+      "difficulty": "hard",
+      "turns": [
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        }
+      ]
+    },
+    {
+      "id": "sb_029",
+      "topic": "wedding",
+      "difficulty": "hard",
+      "turns": [
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        }
+      ]
+    },
+    {
+      "id": "sb_030",
+      "topic": "wedding",
+      "difficulty": "easy",
+      "turns": [
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        }
+      ]
+    },
+    {
+      "id": "sb_031",
+      "topic": "romance",
+      "difficulty": "hard",
+      "turns": [
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        }
+      ]
+    },
+    {
+      "id": "sb_032",
+      "topic": "birthday",
+      "difficulty": "medium",
+      "turns": [
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        }
+      ]
+    },
+    {
+      "id": "sb_033",
+      "topic": "anniversary",
+      "difficulty": "hard",
+      "turns": [
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        }
+      ]
+    },
+    {
+      "id": "sb_034",
+      "topic": "birthday",
+      "difficulty": "hard",
+      "turns": [
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        }
+      ]
+    },
+    {
+      "id": "sb_035",
+      "topic": "romance",
+      "difficulty": "medium",
+      "turns": [
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        }
+      ]
+    },
+    {
+      "id": "sb_036",
+      "topic": "anniversary",
+      "difficulty": "hard",
+      "turns": [
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        }
+      ]
+    },
+    {
+      "id": "sb_037",
+      "topic": "anniversary",
+      "difficulty": "easy",
+      "turns": [
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        }
+      ]
+    },
+    {
+      "id": "sb_038",
+      "topic": "anniversary",
+      "difficulty": "easy",
+      "turns": [
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        }
+      ]
+    },
+    {
+      "id": "sb_039",
+      "topic": "family",
+      "difficulty": "hard",
+      "turns": [
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        }
+      ]
+    },
+    {
+      "id": "sb_040",
+      "topic": "romance",
+      "difficulty": "hard",
+      "turns": [
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        },
+        {
+          "role": "client",
+          "content": "..."
+        },
+        {
+          "role": "manager",
+          "content": "Здравствуйте! Расскажите о вашей истории."
+        }
+      ]
+    }
+  ]
+}

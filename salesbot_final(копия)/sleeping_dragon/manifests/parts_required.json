@@ -1,0 +1,40 @@
+{
+  "must_have": [
+    "core/voice_gateway/v1",
+    "core/state/v1",
+    "integrations/patch_v4",
+    "bridges/crm_api_bridge/v4",
+    "bridges/crm_sync/v1",
+    "modules/master_path/v3",
+    "modules/objections/v3",
+    "modules/upsell/v3",
+    "modules/arena/v4",
+    "modules/sleeping_dragon/v4",
+    "modules/exam_autocheck/v2",
+    "modules/errors_manager/v1",
+    "modules/voice_arena/v1",
+    "modules/dialog_memory/v1",
+    "modules/sales_commission/v1",
+    "modules/client_cases/v1",
+    "apps/mini_webkit/v3",
+    "apps/mini_webkit/brand/v1",
+    "apps/public_miniapp/v1",
+    "api/public/v1",
+    "api/admin/v1",
+    "api/voice/v1",
+    "modules/payments/v2"
+  ],
+  "optional_but_recommended": [
+    "products/bundle/v1",
+    "pipelines/glue/v1",
+    "integrations/telegram_push/v1",
+    "modules/arena_psychotypes/v1",
+    "modules/master_path_rubrics/v1",
+    "modules/upsell_pricing_glue/v1",
+    "modules/objections_classifier/v1",
+    "modules/sleeping_dragon_rules/v1",
+    "modules/deepseek_persona/v1",
+    "apps/dashboard_manager/v1",
+    "modules/edu_lessons/v1"
+  ]
+}

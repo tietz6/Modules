@@ -1,0 +1,26 @@
+{
+  "type": "object",
+  "properties": {
+    "time": {
+      "type": "integer"
+    },
+    "module": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    },
+    "trace": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "time",
+    "module",
+    "type",
+    "message"
+  ]
+}

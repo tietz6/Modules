@@ -1,0 +1,1 @@
+SQLite wrapper for salesbot

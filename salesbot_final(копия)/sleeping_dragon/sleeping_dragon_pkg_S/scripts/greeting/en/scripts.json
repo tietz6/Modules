@@ -1,0 +1,1204 @@
+{
+  "items": [
+    {
+      "id": "greeting_en_001",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 1: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_002",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 2: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_003",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 3: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_004",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 4: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_005",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 5: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_006",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 6: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_007",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 7: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_008",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 8: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_009",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 9: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_010",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 10: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_011",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 11: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_012",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 12: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_013",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 13: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_014",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 14: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_015",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 15: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_016",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 16: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_017",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 17: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_018",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 18: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_019",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 19: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_020",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 20: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_021",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 21: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_022",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 22: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_023",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 23: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_024",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 24: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_025",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 25: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_026",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 26: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_027",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 27: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_028",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 28: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_029",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 29: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_030",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 30: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_031",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 31: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_032",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 32: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_033",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 33: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_034",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 34: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_035",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 35: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_036",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 36: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_037",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 37: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_038",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 38: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_039",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 39: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_040",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 40: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_041",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 41: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_042",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 42: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_043",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 43: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_044",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 44: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_045",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 45: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_046",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 46: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_047",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 47: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_048",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 48: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_049",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 49: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_050",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 50: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_051",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 51: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_052",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 52: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_053",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 53: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_054",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 54: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_055",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 55: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_056",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 56: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_057",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 57: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_058",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 58: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_059",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 59: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_060",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 60: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_061",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 61: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_062",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 62: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_063",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 63: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_064",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 64: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_065",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 65: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_066",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 66: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_067",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 67: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_068",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 68: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_069",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 69: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_070",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 70: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_071",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 71: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_072",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 72: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_073",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 73: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_074",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 74: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_075",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 75: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_076",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 76: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_077",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 77: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_078",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 78: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_079",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 79: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_080",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 80: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_081",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 81: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_082",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 82: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_083",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 83: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_084",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 84: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_085",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 85: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_086",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 86: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_087",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 87: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_088",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 88: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_089",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 89: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_090",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 90: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_091",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 91: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_092",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 92: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_093",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 93: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_094",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 94: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_095",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 95: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_096",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 96: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_097",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 97: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_098",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 98: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_099",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 99: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "greeting_en_100",
+      "stage": "greeting",
+      "lang": "en",
+      "script": "Script 100: value → clarifying question → soft CTA. (greeting)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    }
+  ]
+}

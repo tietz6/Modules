@@ -1,0 +1,1204 @@
+{
+  "items": [
+    {
+      "id": "support_ky_001",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 1: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_002",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 2: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_003",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 3: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_004",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 4: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_005",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 5: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_006",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 6: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_007",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 7: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_008",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 8: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_009",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 9: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_010",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 10: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_011",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 11: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_012",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 12: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_013",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 13: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_014",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 14: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_015",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 15: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_016",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 16: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_017",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 17: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_018",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 18: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_019",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 19: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_020",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 20: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_021",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 21: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_022",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 22: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_023",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 23: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_024",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 24: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_025",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 25: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_026",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 26: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_027",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 27: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_028",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 28: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_029",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 29: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_030",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 30: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_031",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 31: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_032",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 32: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_033",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 33: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_034",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 34: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_035",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 35: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_036",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 36: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_037",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 37: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_038",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 38: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_039",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 39: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_040",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 40: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_041",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 41: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_042",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 42: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_043",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 43: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_044",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 44: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_045",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 45: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_046",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 46: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_047",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 47: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_048",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 48: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_049",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 49: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_050",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 50: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_051",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 51: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_052",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 52: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_053",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 53: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_054",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 54: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_055",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 55: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_056",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 56: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_057",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 57: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_058",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 58: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_059",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 59: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_060",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 60: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_061",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 61: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_062",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 62: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_063",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 63: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_064",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 64: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_065",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 65: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_066",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 66: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_067",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 67: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_068",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 68: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_069",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 69: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_070",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 70: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_071",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 71: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_072",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 72: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_073",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 73: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_074",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 74: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_075",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 75: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_076",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 76: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_077",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 77: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_078",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 78: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_079",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 79: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_080",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 80: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_081",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 81: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_082",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 82: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_083",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 83: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_084",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 84: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_085",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 85: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_086",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 86: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_087",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 87: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_088",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 88: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_089",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 89: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_090",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 90: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_091",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 91: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_092",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 92: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_093",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 93: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_094",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 94: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_095",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 95: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_096",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 96: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_097",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 97: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_098",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 98: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_099",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 99: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    },
+    {
+      "id": "support_ky_100",
+      "stage": "support",
+      "lang": "ky",
+      "script": "Скрипт 100: баалуулук → тактоочу суроо → жумшак аракет. (support)",
+      "tags": [
+        "warmth",
+        "value",
+        "question",
+        "soft_cta"
+      ]
+    }
+  ]
+}

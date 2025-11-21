@@ -1,0 +1,51 @@
+{
+  "report_id": "R-1762361943",
+  "manager_id": "alex",
+  "session_id": "S-EXAMPLE-001",
+  "generated_at": "2025-11-05T08:20:00Z",
+  "summary": "Хороший темп и тёплый тон. Нужен короткий recap перед оффером и чуть раньше перейти к оплате.",
+  "scores": {
+    "total": 84,
+    "rule": 8,
+    "llm": 8,
+    "stages": {
+      "greeting": 9,
+      "qualification": 8,
+      "offer": 7,
+      "demo": 8,
+      "final": 8
+    }
+  },
+  "issues": [
+    "no_recap",
+    "pushy_payment (на грани)"
+  ],
+  "tips": [
+    "Сделай 1–2 предложения-резюме перед оффером.",
+    "Сформулируй мягкий переход к оплате через выбор."
+  ],
+  "timeline": [
+    {
+      "ts": 1762361643.5381372,
+      "event": "greeting",
+      "data": {
+        "ok": true
+      }
+    },
+    {
+      "ts": 1762361823.5381384,
+      "event": "offer",
+      "data": {
+        "variant": "premium"
+      }
+    }
+  ],
+  "next_actions": [
+    "Повтори модуль Master Path → offer.",
+    "Потренируй мягкий CTA в Voice Arena."
+  ],
+  "links": {
+    "mini_preview": "/mini/v3/preview/exam",
+    "public_key": "miniapp:abc123"
+  }
+}

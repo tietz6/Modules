@@ -1,0 +1,11 @@
+{
+  "bot_token_env": "TELEGRAM_BOT_TOKEN",
+  "enabled": true,
+  "mock_mode": false,
+  "default_channels": [
+    "training",
+    "kpi",
+    "cases",
+    "deals"
+  ]
+}
