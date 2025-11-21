@@ -52,39 +52,9 @@ def get_session(chat_id: int):
         SESSIONS[chat_id] = {"mode": None, "sid": None}
     return SESSIONS[chat_id]
 
-# ===================== Legacy trainer endpoints =====================
-def api_start_session(manager_id: str, scenario_id: str = "cold_start_warm") -> dict:
-    url = BACKEND_URL + "/trainer_dialog_engine/v1/start"
-    log("CALL /trainer_dialog_engine/v1/start", manager_id, scenario_id)
-    try:
-        r = requests.post(url, json={"manager_id": manager_id, "scenario_id": scenario_id}, timeout=10)
-        r.raise_for_status()
-        return r.json()
-    except Exception as e:
-        log("Ошибка вызова /trainer start:", e)
-        return {"error": str(e)}
-
-def api_turn(sid: str, text: str) -> dict:
-    url = BACKEND_URL + "/trainer_dialog_engine/v1/turn"
-    log("CALL /trainer_dialog_engine/v1/turn", sid, "text:", text[:50])
-    try:
-        r = requests.post(url, json={"sid": sid, "text": text}, timeout=15)
-        r.raise_for_status()
-        return r.json()
-    except Exception as e:
-        log("Ошибка вызова /trainer turn:", e)
-        return {"error": str(e)}
-
-def api_stop(sid: str) -> dict:
-    url = BACKEND_URL + "/trainer_dialog_engine/v1/stop"
-    log("CALL /trainer_dialog_engine/v1/stop", sid)
-    try:
-        r = requests.post(url, json={"sid": sid}, timeout=10)
-        r.raise_for_status()
-        return r.json()
-    except Exception as e:
-        log("Ошибка вызова /trainer stop:", e)
-        return {"error": str(e)}
+# ===================== Legacy trainer endpoints - REMOVED =====================
+# trainer_dialog_engine has been removed from the project
+# Use master_path module instead via /master_path command
 
 # ===================== MODULE DISCOVERY & PROBING =====================
 
@@ -237,12 +207,7 @@ if not MODULE_COMMANDS:
     MODULE_COMMANDS = find_modules_commands_fs()
 log("Discovered module commands:", MODULE_COMMANDS)
 
-# Legacy trainer compatibility
-LEGACY_TRAINER_COMMANDS = {
-    "/train": "trainer_dialog_engine/v1/start",
-    "/dialog": "trainer_dialog_engine/v1/start",
-    "/stop_dialog": "trainer_dialog_engine/v1/stop",
-}
+# Legacy trainer commands removed - no longer used
 
 # ===================== COMMAND HANDLERS =====================
 
@@ -250,89 +215,21 @@ def handle_start_command(chat_id: int, session: dict):
     session["mode"] = None
     session["sid"] = None
     text = (
-        "Привет 🌿 Это тренажёр диалога с клиентом.\n\n"
-        "Команды:\n"
-        "/train или /dialog — запустить тренажёр (клиент + оценки)\n"
-        "/stop_dialog — завершить текущую сессии и получить сводку\n"
-        "/modules — посмотреть доступные модули\n"
+        "Привет 🌿 Я — Tietz, твой ИИ-наставник.\n"
+        "Готов провести тебя по модулям обучения.\n"
+        "Выбери, с чего начнём.\n\n"
+        "Доступные команды:\n"
+        "/master_path — Я новичок (полный путь обучения)\n"
+        "/modules — Я уже с базой (выбрать модуль)\n"
     )
-    if MODULE_COMMANDS:
-        text += "\nДоступные модули:\n"
-        for cmd, (_ep, desc) in MODULE_COMMANDS.items():
-            text += f"{cmd} — {desc}\n"
     send_message(chat_id, text)
 
-def handle_dialog_command(chat_id: int, session: dict):
-    manager_id = str(chat_id)
-    data = api_start_session(manager_id)
-    if "error" in data:
-        send_message(chat_id, "Не получилось запустить сессию тренажёра 😔 Попробуй позже.")
-        return
-    sid = data.get("sid") or data.get("session_id")
-    if not sid:
-        send_message(chat_id, "Сервер не вернул sid, обратитесь к разработчику.")
-        return
-    session["mode"] = "dialog"
-    session["sid"] = sid
-    send_message(chat_id, "Запустил тренировку 🎧 Пиши свои ответы — я буду играть роль клиента.")
+def handle_train_command(chat_id: int, session: dict):
+    """Handle /train command - delegates to master_path module"""
+    # /train now just redirects to master_path
+    handle_module_command(chat_id, session, "/master_path")
 
-def handle_stop_dialog(chat_id: int, session: dict):
-    sid = session.get("sid")
-    if not sid:
-        send_message(chat_id, "Активной сессии нет. Чтобы запустить — напиши /train.")
-        return
-    data = api_stop(sid)
-    if "error" in data:
-        send_message(chat_id, "Не получилось получить итог по сессии 😔 Попробуй позже.")
-        return
-    summary = data.get("summary", {})
-    tips = data.get("tips", [])
-    lines = ["📊 Итоги сессии:"]
-    lines.append(f"Теплота: {summary.get('avg_warmth',0)}/100")
-    lines.append(f"Эмпатия: {summary.get('avg_empathy',0)}/100")
-    lines.append(f"Вопросы: {summary.get('avg_questions',0)}/100")
-    if tips:
-        lines.append("")
-        lines.append("Рекомендации:")
-        for t in tips:
-            lines.append(f"• {t}")
-    send_message(chat_id, "\n".join(lines))
-    if ADMIN_CHAT_ID and ADMIN_CHAT_ID != "0":
-        try:
-            admin_msg = f"👤 Менеджер: {chat_id}\nSID: {sid}\n\n" + "\n".join(lines)
-            requests.post(BASE_URL + "/sendMessage", json={"chat_id": int(ADMIN_CHAT_ID), "text": admin_msg}, timeout=10)
-        except Exception as e:
-            log("Ошибка отправки админу:", e)
-    session["mode"] = None
-    session["sid"] = None
-
-def handle_dialog_turn(chat_id: int, text: str, session: dict):
-    sid = session.get("sid")
-    if not sid:
-        send_message(chat_id, "Сессия ещё не запущена. Напиши /train, чтобы начать 🌿")
-        return
-    data = api_turn(sid, text)
-    if "error" in data:
-        if data.get("error") == "session_not_found":
-            send_message(chat_id, "Сессия не найдена. Напиши /train.")
-            session["mode"] = None
-            session["sid"] = None
-            return
-        send_message(chat_id, f"Ошибка при ходе диалога: {data.get('error')}")
-        return
-    reply = data.get("reply", "Клиент пока молчит")
-    eval_res = data.get("eval", {})
-    scores = eval_res.get("scores", {})
-    warmth = scores.get("warmth", 0)
-    empathy = scores.get("empathy", 0)
-    questions = scores.get("questions", 0)
-    tips = eval_res.get("tips") or []
-    msg = f"🗣 Клиент:\n{reply}\n\n📊 Оценка:\nТеплота: {warmth}/100\nЭмпатия: {empathy}/100\nВопросы: {questions}/100\n"
-    if tips:
-        msg += "\nРекомендации:\n"
-        for t in tips:
-            msg += f"• {t}\n"
-    send_message(chat_id, msg)
+# Legacy dialog handlers removed - use module-based approach instead
 
 # ===================== GENERIC MODULE CALL =====================
 
@@ -384,10 +281,8 @@ def handle_update(update: dict):
     # commands
     if text == "/start":
         handle_start_command(chat_id, session); return
-    if text in ("/train", "/dialog"):
-        handle_dialog_command(chat_id, session); return
-    if text == "/stop_dialog":
-        handle_stop_dialog(chat_id, session); return
+    if text == "/train":
+        handle_train_command(chat_id, session); return
     if text == "/modules":
         lines = ["Доступные модули:"]
         for k, (_ep, desc) in MODULE_COMMANDS.items():
@@ -398,10 +293,8 @@ def handle_update(update: dict):
     if first_word in MODULE_COMMANDS:
         handle_module_command(chat_id, session, first_word); return
 
-    if session.get("mode") == "dialog":
-        handle_dialog_turn(chat_id, text, session)
-    else:
-        send_message(chat_id, "Напиши /modules чтобы увидеть модули или /train для тренажёра.")
+    # No active session mode anymore - just guide user
+    send_message(chat_id, "Напиши /modules чтобы увидеть модули или /train для обучения.")
 
 # ===================== MAIN LOOP =====================
 

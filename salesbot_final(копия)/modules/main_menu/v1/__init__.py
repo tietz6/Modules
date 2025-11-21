@@ -5,7 +5,6 @@
 
 try:
     from aiogram import types
-    from aiogram.filters import Command
     from aiogram import Dispatcher
     from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
     AIOGRAM_AVAILABLE = True
@@ -13,7 +12,6 @@ except ImportError:
     AIOGRAM_AVAILABLE = False
     types = None
     Dispatcher = None
-    Command = None
     ReplyKeyboardMarkup = None
     KeyboardButton = None
 
@@ -58,11 +56,12 @@ def register_telegram(dp, registry):
     """
     Регистрируем телеграм-хэндлеры для главного меню.
     Вызывается автозагрузчиком telegram/autoload.py.
+    Использует aiogram v2 синтаксис.
     """
     if not AIOGRAM_AVAILABLE:
         return
     
-    @dp.message(Command("start"))
+    @dp.message_handler(commands=["start", "menu"])
     async def _cmd_start(message: types.Message):
         """
         Команда /start - главная точка входа в бота.
@@ -77,7 +76,7 @@ def register_telegram(dp, registry):
             parse_mode="HTML"
         )
     
-    @dp.message(lambda message: message.text == "🧭 Путь Мастера")
+    @dp.message_handler(lambda message: message.text == "🧭 Путь Мастера")
     async def _menu_master_path(message: types.Message):
         """Запуск модуля Путь Мастера"""
         from modules.master_path.v3.engine import MasterPath
@@ -125,7 +124,7 @@ def register_telegram(dp, registry):
         
         await message.reply(help_text, reply_markup=inline_kb, parse_mode="HTML")
     
-    @dp.message(lambda message: message.text == "🛡️⚔️ Щит и Меч")
+    @dp.message_handler(lambda message: message.text == "🛡️⚔️ Щит и Меч")
     async def _menu_objections(message: types.Message):
         """Запуск модуля Щит и Меч (возражения)"""
         help_text = (
@@ -154,7 +153,7 @@ def register_telegram(dp, registry):
         
         await message.reply(help_text, reply_markup=inline_kb, parse_mode="HTML")
     
-    @dp.message(lambda message: message.text == "🏆 Вкус Победы")
+    @dp.message_handler(lambda message: message.text == "🏆 Вкус Победы")
     async def _menu_upsell(message: types.Message):
         """Запуск модуля Вкус Победы (допродажи)"""
         help_text = (
@@ -180,7 +179,7 @@ def register_telegram(dp, registry):
         
         await message.reply(help_text, reply_markup=inline_kb, parse_mode="HTML")
     
-    @dp.message(lambda message: message.text == "🐉 Спящий Дракон")
+    @dp.message_handler(lambda message: message.text == "🐉 Спящий Дракон")
     async def _menu_sleeping_dragon(message: types.Message):
         """Запуск модуля Спящий Дракон"""
         help_text = (
@@ -217,7 +216,7 @@ def register_telegram(dp, registry):
         
         await message.reply(help_text, reply_markup=inline_kb, parse_mode="HTML")
     
-    @dp.message(lambda message: message.text == "🎭 Арена")
+    @dp.message_handler(lambda message: message.text == "🎭 Арена")
     async def _menu_arena(message: types.Message):
         """Запуск модуля Арена"""
         from modules.arena.v4.engine import ArenaEngine

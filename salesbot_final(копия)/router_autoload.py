@@ -11,18 +11,19 @@ ROUTE_MODULES = [
     "modules.objections.v3.routes",
     "modules.upsell.v3.routes",
     "modules.arena.v4.routes",
-    "modules.sleeping_dragon.v4.routes",
+    "modules.sleeping_dragon.v1.routes",  # Fixed: was v4, should be v1
     "modules.exam_autocheck.v2.routes",
     "modules.payments.v2.routes",
 
-    # Trainer-пакет (новые модули)
-    "modules.trainer_core.v1.routes",
-    "modules.trainer_scenarios.v1.routes",
-    "modules.trainer_dialog_engine.v1.routes",
-    "modules.trainer_arena_pro.v1.routes",
-    "modules.trainer_upsell_master.v1.routes",
-    "modules.trainer_story_collection.v1.routes",
-    "modules.trainer_exam.v1.routes",
+    # Trainer-пакет modules - REMOVED trainer_dialog_engine and other trainer_ modules
+    # These have been consolidated into the main modules above
+    # "modules.trainer_core.v1.routes",
+    # "modules.trainer_scenarios.v1.routes",
+    # "modules.trainer_dialog_engine.v1.routes",  # REMOVED - no longer exists
+    # "modules.trainer_arena_pro.v1.routes",
+    # "modules.trainer_upsell_master.v1.routes",
+    # "modules.trainer_story_collection.v1.routes",
+    # "modules.trainer_exam.v1.routes",
 
     # Доп-модули
     "modules.voice_arena.v1.routes",
