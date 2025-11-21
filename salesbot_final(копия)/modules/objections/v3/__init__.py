@@ -17,28 +17,22 @@ def register_telegram(dp, registry):
     """
     Регистрируем телеграм-хэндлеры для модуля objections (работа с возражениями).
     Вызывается автозагрузчиком telegram/autoload.py.
+    
+    Теперь доступ через главное меню (кнопки), команды убраны для обычных пользователей.
     """
     if not AIOGRAM_AVAILABLE:
         return
     
-    @dp.message(Command("objections", "возражения"))
-    async def _cmd_objections(message: types.Message):
-        """
-        Команда /objections - тренировка работы с возражениями
-        10 типов возражений, 4 типа персон клиента
-        """
+    # Callback handlers для inline кнопок
+    @dp.callback_query(lambda c: c.data == "obj_reset")
+    async def _callback_obj_reset(callback: types.CallbackQuery):
+        """Начать с новым возражением"""
         from .engine import ObjectionEngine
         
-        user_id = str(message.from_user.id)
-        
-        # Set active session in router
-        try:
-            from telegram_message_router import set_active_session
-            set_active_session(user_id, 'objections')
-        except:
-            pass
-        
+        user_id = str(callback.from_user.id)
         obj = ObjectionEngine(user_id)
+        obj._reset()
+        
         state = obj.snapshot()
         
         objection_types_ru = {
@@ -54,54 +48,22 @@ def register_telegram(dp, registry):
             "competitor": "🏪 Конкурент"
         }
         
-        personas_ru = {
-            "stranger": "😶 Холодный",
-            "calm": "😌 Спокойный",
-            "aggressive": "😠 Агрессивный",
-            "funny": "😄 С юмором"
-        }
-        
         obj_type = objection_types_ru.get(state['objection_type'], state['objection_type'])
-        persona = personas_ru.get(state['persona'], state['persona'])
         
-        help_text = (
-            "🛡️ <b>Возражения</b> - Щит и Меч продажника\n\n"
-            f"⚠️ Тип возражения: <b>{obj_type}</b>\n"
-            f"👤 Персона клиента: {persona}\n\n"
-            "💬 Клиент высказал возражение.\n"
-            "Твоя задача - работать с возражением!\n\n"
-            "Я буду отвечать как клиент через DeepSeek AI.\n\n"
-            "Команды:\n"
-            "/obj_reset - новое возражение\n"
-            "/obj_status - статистика"
+        await callback.message.edit_text(
+            f"🔄 <b>Новое возражение!</b>\n\n"
+            f"⚠️ Тип: {obj_type}\n\n"
+            f"Начинай работу с возражением!",
+            parse_mode="HTML"
         )
-        
-        await message.reply(help_text, parse_mode="HTML")
+        await callback.answer()
     
-    @dp.message(Command("obj_reset"))
-    async def _cmd_obj_reset(message: types.Message):
-        """Начать с новым возражением"""
-        from .engine import ObjectionEngine
-        
-        user_id = str(message.from_user.id)
-        obj = ObjectionEngine(user_id)
-        obj._reset()
-        
-        # Clear active session
-        try:
-            from telegram_message_router import clear_active_session
-            clear_active_session(user_id)
-        except:
-            pass
-        
-        await message.reply("🔄 Новое возражение сгенерировано!\n\nИспользуй /objections чтобы начать.")
-    
-    @dp.message(Command("obj_status"))
-    async def _cmd_obj_status(message: types.Message):
+    @dp.callback_query(lambda c: c.data == "obj_status")
+    async def _callback_obj_status(callback: types.CallbackQuery):
         """Посмотреть статистику"""
         from .engine import ObjectionEngine
         
-        user_id = str(message.from_user.id)
+        user_id = str(callback.from_user.id)
         obj = ObjectionEngine(user_id)
         state = obj.snapshot()
         
@@ -137,4 +99,5 @@ def register_telegram(dp, registry):
             "Продолжай работу с возражением!"
         )
         
-        await message.reply(status_text, parse_mode="HTML")
+        await callback.message.edit_text(status_text, parse_mode="HTML")
+        await callback.answer()

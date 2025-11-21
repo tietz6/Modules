@@ -17,28 +17,22 @@ def register_telegram(dp, registry):
     """
     Регистрируем телеграм-хэндлеры для модуля arena (практика с AI-клиентами).
     Вызывается автозагрузчиком telegram/autoload.py.
+    
+    Теперь доступ через главное меню (кнопки), команды убраны для обычных пользователей.
     """
     if not AIOGRAM_AVAILABLE:
         return
     
-    @dp.message(Command("arena", "арена"))
-    async def _cmd_arena(message: types.Message):
-        """
-        Команда /arena - тренировка с AI-клиентом
-        20 типов клиентов, 5 эмоций, 3 уровня сложности
-        """
+    # Добавляем только callback handlers для inline кнопок
+    @dp.callback_query(lambda c: c.data == "arena_reset")
+    async def _callback_arena_reset(callback: types.CallbackQuery):
+        """Начать с новым клиентом"""
         from .engine import ArenaEngine
         
-        user_id = str(message.from_user.id)
-        
-        # Set active session in router
-        try:
-            from telegram_message_router import set_active_session
-            set_active_session(user_id, 'arena')
-        except:
-            pass
-        
+        user_id = str(callback.from_user.id)
         arena = ArenaEngine(user_id)
+        arena.reset()
+        
         state = arena.snapshot()
         
         client_types_ru = {
@@ -51,55 +45,22 @@ def register_telegram(dp, registry):
             "slow": "Медлительный", "expert": "Эксперт"
         }
         
-        emotions_ru = {
-            "calm": "😌 Спокоен",
-            "neutral": "😐 Нейтрален",
-            "annoyed": "😠 Раздражен",
-            "angry": "😡 Зол",
-            "excited": "😄 Взволнован"
-        }
-        
         ctype_name = client_types_ru.get(state['ctype'], state['ctype'])
-        emotion_name = emotions_ru.get(state['emotion'], state['emotion'])
         
-        help_text = (
-            "⚔️ <b>Арена</b> - Тренировка с AI-клиентом\n\n"
-            f"👤 Тип клиента: <b>{ctype_name}</b>\n"
-            f"{emotion_name}\n"
-            f"🎚 Сложность: <b>{state['difficulty']}</b>\n\n"
-            "💬 Начни диалог с клиентом!\n"
-            "Я буду отвечать как настоящий клиент через DeepSeek AI.\n\n"
-            "Команды:\n"
-            "/arena_reset - новый клиент\n"
-            "/arena_status - статистика"
+        await callback.message.edit_text(
+            f"🔄 <b>Новый клиент сгенерирован!</b>\n\n"
+            f"👤 Тип: {ctype_name}\n\n"
+            f"Начинай диалог!",
+            parse_mode="HTML"
         )
-        
-        await message.reply(help_text, parse_mode="HTML")
+        await callback.answer()
     
-    @dp.message(Command("arena_reset"))
-    async def _cmd_arena_reset(message: types.Message):
-        """Начать с новым клиентом"""
-        from .engine import ArenaEngine
-        
-        user_id = str(message.from_user.id)
-        arena = ArenaEngine(user_id)
-        arena.reset()
-        
-        # Clear active session
-        try:
-            from telegram_message_router import clear_active_session
-            clear_active_session(user_id)
-        except:
-            pass
-        
-        await message.reply("🔄 Новый клиент сгенерирован!\n\nИспользуй /arena чтобы начать.")
-    
-    @dp.message(Command("arena_status"))
-    async def _cmd_arena_status(message: types.Message):
+    @dp.callback_query(lambda c: c.data == "arena_status")
+    async def _callback_arena_status(callback: types.CallbackQuery):
         """Посмотреть статистику"""
         from .engine import ArenaEngine
         
-        user_id = str(message.from_user.id)
+        user_id = str(callback.from_user.id)
         arena = ArenaEngine(user_id)
         state = arena.snapshot()
         
@@ -134,4 +95,22 @@ def register_telegram(dp, registry):
             "Продолжай диалог, отправляя сообщения!"
         )
         
-        await message.reply(status_text, parse_mode="HTML")
+        await callback.message.edit_text(status_text, parse_mode="HTML")
+        await callback.answer()
+    
+    @dp.callback_query(lambda c: c.data == "arena_finish")
+    async def _callback_arena_finish(callback: types.CallbackQuery):
+        """Завершить сессию и получить оценку"""
+        await callback.message.edit_text(
+            "🎯 <b>Сессия завершена!</b>\n\n"
+            "Оценка производится... (функция в разработке)\n\n"
+            "Скоро здесь будет подробный разбор по параметрам:\n"
+            "• Empathy (эмпатия)\n"
+            "• CTA (призыв к действию)\n"
+            "• Timing (тайминг)\n"
+            "• Clarity (ясность)\n"
+            "• Value (ценность)\n"
+            "• Upsell (допродажи)",
+            parse_mode="HTML"
+        )
+        await callback.answer()
