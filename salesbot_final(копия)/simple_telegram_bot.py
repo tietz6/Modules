@@ -34,12 +34,17 @@ def log(*args):
     print(f"[{ts}] [BOT]", *args)
 
 # Telegram helpers
-def send_message(chat_id: int, text: str):
+def send_message(chat_id: int, text: str, reply_markup=None, parse_mode=None):
     """Send text to Telegram (safe)."""
     try:
+        payload = {"chat_id": chat_id, "text": text}
+        if reply_markup:
+            payload["reply_markup"] = reply_markup
+        if parse_mode:
+            payload["parse_mode"] = parse_mode
         resp = requests.post(
             BASE_URL + "/sendMessage",
-            json={"chat_id": chat_id, "text": text},
+            json=payload,
             timeout=10,
         )
         if not resp.ok:
@@ -216,18 +221,52 @@ def handle_start_command(chat_id: int, session: dict):
     session["sid"] = None
     text = (
         "Привет 🌿 Я — Tietz, твой ИИ-наставник.\n"
-        "Готов провести тебя по модулям обучения.\n"
-        "Выбери, с чего начнём.\n\n"
-        "Доступные команды:\n"
-        "/master_path — Я новичок (полный путь обучения)\n"
-        "/modules — Я уже с базой (выбрать модуль)\n"
+        "Помогу тренировать навыки общения с клиентами.\n"
+        "Выбери, с чего начнём."
     )
-    send_message(chat_id, text)
+    # Создаём кнопки для выбора уровня
+    keyboard = {
+        "keyboard": [
+            [{"text": "Я новичок"}],
+            [{"text": "Я уже с базой"}],
+        ],
+        "resize_keyboard": True,
+        "one_time_keyboard": True
+    }
+    send_message(chat_id, text, reply_markup=keyboard)
 
 def handle_train_command(chat_id: int, session: dict):
     """Handle /train command - delegates to master_path module"""
     # /train now just redirects to master_path
     handle_module_command(chat_id, session, "/master_path")
+
+def handle_modules_menu(chat_id: int, session: dict):
+    """Show main modules menu with buttons"""
+    text = (
+        "👋 <b>Привет! Я Tietz</b> — твой наставник по продажам.\n\n"
+        "🎯 <b>Моя задача</b>: помочь тебе стать мастером продаж наших уникальных продуктов:\n"
+        "• Персональные песни по истории клиента\n"
+        "• Оживление фото (живые анимации)\n"
+        "• Песни голосом клиента (voice cloning)\n"
+        "• Видеоролики-подарки с монтажом\n"
+        "• Премиальные мульт-истории по любви\n\n"
+        "💡 <b>Как я работаю</b>:\n"
+        "Я буду играть роль клиента, давать тебе обратную связь и помогать "
+        "развивать навыки продаж через практику и разбор.\n\n"
+        "📚 <b>Выбери модуль обучения:</b>"
+    )
+    keyboard = {
+        "keyboard": [
+            [{"text": "🧭 Путь Мастера"}],
+            [{"text": "🛡️⚔️ Щит и Меч"}],
+            [{"text": "🏆 Вкус Победы"}],
+            [{"text": "🐉 Спящий Дракон"}],
+            [{"text": "🎭 Арена"}],
+        ],
+        "resize_keyboard": True,
+        "one_time_keyboard": False
+    }
+    send_message(chat_id, text, reply_markup=keyboard, parse_mode="HTML")
 
 # Legacy dialog handlers removed - use module-based approach instead
 
@@ -251,7 +290,8 @@ def handle_module_command(chat_id: int, session: dict, cmd: str):
         msg = data.get("reply") or data.get("result") or str(data)
         if isinstance(msg, (dict, list)):
             msg = json.dumps(msg, ensure_ascii=False, indent=2)
-        send_message(chat_id, msg)
+        # Send with HTML parse mode for better formatting
+        send_message(chat_id, msg, parse_mode="HTML")
     except Exception as e:
         log("Ошибка вызова модуля", cmd, e)
         send_message(chat_id, f"Ошибка запуска модуля {cmd}: {e}")
@@ -283,18 +323,46 @@ def handle_update(update: dict):
         handle_start_command(chat_id, session); return
     if text == "/train":
         handle_train_command(chat_id, session); return
-    if text == "/modules":
-        lines = ["Доступные модули:"]
-        for k, (_ep, desc) in MODULE_COMMANDS.items():
-            lines.append(f"{k} — {desc}")
-        send_message(chat_id, "\n".join(lines)); return
+    if text == "/modules" or text == "/menu":
+        handle_modules_menu(chat_id, session); return
+    
+    # Handle button presses
+    if text == "Я новичок":
+        # For beginners - start with master_path
+        send_message(
+            chat_id,
+            "🎓 Отлично! Я проведу тебя через полный цикл обучения.\n"
+            "Начинаем с модуля <b>Путь Мастера</b>.",
+            parse_mode="HTML"
+        )
+        handle_module_command(chat_id, session, "/master_path")
+        return
+    
+    if text == "Я уже с базой":
+        # For experienced - show modules menu
+        handle_modules_menu(chat_id, session)
+        return
+    
+    # Module button presses
+    button_to_module = {
+        "🧭 Путь Мастера": "/master_path",
+        "🛡️⚔️ Щит и Меч": "/objections",
+        "🏆 Вкус Победы": "/upsell",
+        "🐉 Спящий Дракон": "/sleeping_dragon",
+        "🎭 Арена": "/arena",
+    }
+    
+    if text in button_to_module:
+        handle_module_command(chat_id, session, button_to_module[text])
+        return
 
+    # Legacy slash command support
     first_word = text.split()[0]
     if first_word in MODULE_COMMANDS:
         handle_module_command(chat_id, session, first_word); return
 
     # No active session mode anymore - just guide user
-    send_message(chat_id, "Напиши /modules чтобы увидеть модули или /train для обучения.")
+    send_message(chat_id, "Используй /start чтобы начать или /modules чтобы выбрать модуль.")
 
 # ===================== MAIN LOOP =====================
 
